@@ -1,14 +1,19 @@
+export const metadata = {
+    title: 'Travel Advisory',
+    description: 'Information whether its safe to travel to other countries',
+}
+
 export default function TravelAdvisory(){
     return (
         <main className="flex flex-col">
             <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
                 <div className="sm:px-40 px-10 max-w-screen-xl text-left py-24 lg:py-10 space-y-3">
-                    <h1 className="font-medium text-4xl">Travel Advisory</h1>
-                    <h2 className="font-light text-lg">Information whether its safe to travel to other countries</h2>
+                    <h1 className="font-medium text-4xl">{metadata.title}</h1>
+                    <h2 className="font-light text-lg">{metadata.description}</h2>
                 </div>
             </div>
             <div>
-                <h1 className="p-5 sm:px-40 px-10 text-3xl">Legend</h1>
+                <h1 className="p-5 sm:px-40 px-10 text-3xl" id="legend">Legend</h1>
                 <ul>
                     <li className="p-6 sm:px-40 px-10 bg-green-950">
                         <p className="font-medium text-lg">Take normal security precautions</p>

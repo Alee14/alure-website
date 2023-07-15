@@ -6,7 +6,10 @@ import Image from "next/image";
 const exo = Exo({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Government of Alure Regions',
+  title: {
+      template: '%s - Government of Alure Regions',
+      default: 'Government of Alure Regions'
+  },
   description: 'The official website of the Government of Alure Regions',
 }
 
@@ -38,29 +41,22 @@ export default function RootLayout({ children }) {
                   <ul className="font-medium text-lg flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0">
                       {[
                           ['Home', '/'],
-                          ['Updates', '#'],
+                          ['Updates', '/updates'],
                           ['Services', '#'],
-                          ['Travel Advisory', 'travel-advisory'],
+                          ['Travel Advisory', '/travel-advisory'],
                       ].map(([title, url]) => (
-                          // eslint-disable-next-line react/jsx-key
-                          <li>
-                              <Link href={url} className="transition duration-150 ease-out hover:ease-in block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">
+                          <li key="links">
+                              <Link href={url} className="transition duration-150 ease-out hover:ease-in block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent" aria-current="page">
                                   {title}
                               </Link>
                           </li>
                       ))}
-                      { /*<li>
-                          <a href="#"
-                             className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                             aria-current="page">Home</a>
-                      </li> */}
-
                   </ul>
               </div>
           </div>
       </nav>
       {children}
-      <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base">
+      <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base px-5 sm:px-0">
           <p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
           <p>This website is proudly written using Next.JS and Tailwind CSS</p>
       </footer>
