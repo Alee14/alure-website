@@ -7,7 +7,7 @@ const exo = Exo({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Government of Alure Regions',
-  description: 'Information about Alure Regions',
+  description: 'The official website of the Government of Alure Regions',
 }
 
 export default function RootLayout({ children }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
               <div className="flex items-center">
                   <Image src="/alure_flag.svg" className="mr-5" alt="Alure Flag" width={70} height={70}/>
-                  <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"><p>Government of</p><p>Alure Regions</p></span>
+                  <span className="self-center text-2xl font-medium whitespace-nowrap dark:text-white"><p>Government</p><p>of Alure Regions</p></span>
               </div>
               <button data-collapse-toggle="navbar-default" type="button"
                       className="transition duration-150 ease-out hover:ease-in inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
                           ['Home', '/'],
                           ['Updates', '#'],
                           ['Services', '#'],
-                          ['ExploreAlure', 'explorealure'],
+                          ['Travel Advisory', 'travel-advisory'],
                       ].map(([title, url]) => (
                           // eslint-disable-next-line react/jsx-key
                           <li>
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
       {children}
       <footer className="flex flex-col text-center py-3 space-y-2 bg-red-950 text-light">
           <p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
-          <p>Website is proudly written in Next.JS and Tailwind CSS</p>
+          <p>This website is proudly written using Next.JS and Tailwind CSS</p>
       </footer>
       </body>
     </html>
