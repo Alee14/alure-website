@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={exo.className}>
-      <div className="px-10 mx-15 py-0.5 font-medium space-x-3 text-right">
+      <div className="sm:px-10 px-5 py-0.5 font-medium space-x-3 text-right">
           <a href="https://aircs.racing" className="transition duration-150 ease-out hover:ease-in md:hover:text-blue-500">aircs.racing ↗</a>
           <a href="https://alee14.me" className="transition duration-150 ease-out hover:ease-in md:hover:text-blue-500">alee14.me ↗</a>
       </div>
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
           </div>
       </nav>
       {children}
-      <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light">
+      <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base">
           <p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
           <p>This website is proudly written using Next.JS and Tailwind CSS</p>
       </footer>
