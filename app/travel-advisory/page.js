@@ -1,7 +1,7 @@
 export default function TravelAdvisory(){
     return (
         <main className="flex flex-col">
-            <div className="bg-center bg-no-repeat bg-[url('/jumbotron.png')] bg-gray-700 bg-blend-multiply">
+            <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-left py-24 lg:py-10 space-y-3">
                     <h1 className="font-medium text-2xl">Travel Advisory</h1>
                     <h2 className="font-light text-lg">Information whether its safe to travel to other countries</h2>
