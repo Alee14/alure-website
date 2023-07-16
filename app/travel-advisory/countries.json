@@ -1,0 +1,146 @@
+{
+    "countries": [
+        {
+            "name": "Anatoli",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Auckland",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Aura Regions, The",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Birch Boat Town",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Birch Lodges Community Town",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Country Warp",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Eagle City",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Fegal",
+            "status": 3,
+            "history": [
+                "May 17th 2023: Fegal has border security issues and it has not been solved as of now."
+            ]
+        },
+        {
+            "name": "Halcandra",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Inkytown",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Kemonomimi Republic, The",
+            "status": 1,
+            "history": [
+                "July 15: KR has internal power issues between the President and Govenor. Governor was trying to form a new government under \"KSSR\"."
+            ]
+        },
+        {
+            "name": "Knowle Regions, The",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Lion Land",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Mart's Extraordinarily Sublime State",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Mojave",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Open Republic, The",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "PLC",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Plutonia Imperium",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Solstice, The Federal Democracy of",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Southeastern Islands, The",
+            "status": 2,
+            "history": [
+                "July 15: A disease has been going around Foret Quebec",
+                "Foret Quebec has been dealing with environmental issues"
+            ]
+        },
+        {
+            "name": "Sulópolis",
+            "status": 0,
+            "history": []
+        },
+                {
+            "name": "TAY",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Union of Soviet Sovereign Republics",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Veronian Controlled Territories",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Whale City, The Republic of",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "Yavno, The Federation of",
+            "status": 0,
+            "history": []
+        },
+        {
+            "name": "You on Kazoo, The Republic of",
+            "status": 0,
+            "history": []
+        }
+    ]
+}

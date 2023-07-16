@@ -1,9 +1,17 @@
+import { readFileSync } from "fs";
+
 export const metadata = {
     title: 'Travel Advisory',
     description: 'Information whether its safe to travel to other countries',
 }
 
-export default function TravelAdvisory(){
+export async function getCountries(){
+    const files = readdirSync('./countries.json');
+
+
+}
+
+export default async function TravelAdvisory(){
     return (
         <main className="flex flex-col">
             <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
@@ -34,11 +42,19 @@ export default function TravelAdvisory(){
                     </li>
                 </ul>
             </div>
-            <div className="sm:px-40 px-10 py-3 bg-blue-800"><h2 className="font-medium text-lg">This page may be inaccurate at times, refer to the Minecraft General Announcements channel for the latest updates</h2></div>
+            <div className="sm:px-40 px-10 py-3 bg-blue-800"><h2 className="font-medium text-lg">This page may be inaccurate at times, refer to the <a href="https://discord.com/channels/277922530973581312/1019705091336446052"  className="text-gray-400 hover:text-gray-300">Minecraft General Announcements</a> channel for the latest updates</h2></div>
             <div className="bg-center bg-no-repeat bg-[url('/regions/silicon-valley.webp')] bg-gray-600 bg-blend-multiply">
                 <div className="sm:px-40 px-10 py-10 space-y-3 ">
                     <h1 className="font-medium text-5xl">Country name</h1>
                     <h2 className="text-lg">Take normal security precautions</h2>
+                    <h2 className="font-medium text-3xl">City 1</h2>
+                    <h2 className="text-base">Take normal security precautions</h2>
+                    <h2 className="font-medium text-3xl">City 2</h2>
+                    <h2 className="text-base">Take normal security precautions</h2>
+                    <h2 className="font-medium text-3xl">City 3</h2>
+                    <h2 className="text-base">Take normal security precautions</h2>
+                    <h2 className="font-medium text-3xl">City 4</h2>
+                    <h2 className="text-base">Take normal security precautions</h2>
                     <button className="bg-blue-600 px-4 py-2">Information</button>
                 </div>
             </div>

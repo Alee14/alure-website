@@ -7,8 +7,8 @@ export default function Home() {
     <main className="flex flex-col">
         <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-500 bg-blend-multiply">
             <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 space-y-3">
-                <h1 className="font-medium sm:text-5xl text-2xl">Welcome to the Alure Regions</h1>
-                <h2 className="font-light sm:text-3xl text-lg">The official website of the Government of Alure Regions</h2>
+                <h1 className="font-medium md:text-5xl text-2xl">Welcome to the Alure Regions</h1>
+                <h2 className="font-light md:text-3xl text-lg">The official website of the Government of Alure Regions</h2>
             </div>
         </div>
             <ul>
