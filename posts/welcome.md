@@ -1,6 +1,6 @@
 ---
 title: Website Launched
-description: Our new website is now available
+description: Our new website is now available!
 author: The President of the Alure Regions
 date: '2023-07-15'
 tags: ['announcement']

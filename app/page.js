@@ -1,8 +1,16 @@
+import getPostMetadata from "@/components/updates/getPostMetadata";
+import PostPreview from "@/components/updates/PostPreview";
+import Link from "next/link";
+
 export const metadata = {
     title: 'Home - Government of Alure Regions',
     description: 'The official website of the Government of Alure Regions',
 }
 export default function Home() {
+    const postMetadata = getPostMetadata();
+    const postPreviews = postMetadata.slice(0,3).map((post) => (
+        <PostPreview key={post.slug} {...post} />
+    ));
   return (
     <main className="flex flex-col">
         <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-500 bg-blend-multiply">
@@ -51,10 +59,12 @@ export default function Home() {
             </ul>
         <div className="sm:px-40 px-10 py-3 space-y-3">
             <h1 className="text-2xl font-medium" id="about">About Alure Regions</h1>
-            <p>Founded in July 2023, the goal of Alure Regions is to have more freedom on our regions.</p>
-            <p>Originally Alee Isle Regions then formed to become Southeastern Islands and then split from it.</p>
-            <p>We strife on trying to become stronger and better, as small regions.</p>
+            <p>Alure Regions was founded in July 2023 with the goal of achieving greater autonomy in our regions.</p>
+            <p>Originally known as Alee Isle Regions, we later became Southeastern Islands before branching out on our own.</p>
+            <p>We are committed to continuous improvement and growth as small regions.</p>
             <h1 className="text-2xl font-medium">Latest Updates</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">{postPreviews}</div>
+            <Link href="/updates"><p className="text-blue-500 hover:text-blue-300 pt-2">View more</p></Link>
         </div>
     </main>
   )

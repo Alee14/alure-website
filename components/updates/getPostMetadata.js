@@ -6,7 +6,7 @@ export default function getPostMetadata() {
     const files = readdirSync(folder);
     const markdownPosts = files.filter((file) => file.endsWith(".md"));
 
-    return markdownPosts.map((fileName) => {
+    const posts = markdownPosts.map((fileName) => {
         const fileContent = readFileSync(`posts/${fileName}`, "utf-8");
         const matterResult = matter(fileContent);
         return {
@@ -17,4 +17,8 @@ export default function getPostMetadata() {
             slug: fileName.replace(".md", "")
         }
     })
+
+    // Sort the posts by date in descending order
+    posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    return posts
 }

@@ -17,7 +17,7 @@ const HistoryModal = ({ isVisible, onClose, countries, dangerLevel, history }) =
 
     return (
         <div id="wrapper" className="fixed inset-0 bg bg-opacity-25 backdrop-blur-sm flex justify-center items-center" onClick={handleClose}>
-            <div className="w-[600px]">
+            <div className="w-[700px]">
                 <div className="flex flex-col">
                     <div className="bg-zinc-800 p-5 rounded-lg border border-gray-700">
                         <div className="divide-y space-y-3">
