@@ -1,5 +1,5 @@
 import Link from "next/link";
-//import DateFormatter from '@/components/DateFormatter'
+import DateFormatter from '@/components/updates/DateFormatter'
 
 export default function PostPreview(props) {
  return (
@@ -9,7 +9,7 @@ export default function PostPreview(props) {
          </Link>
          <span>By {props.author}</span>
          <p>{props.description}</p>
-         <p className="font-medium text-sm">Posted on {props.date}</p>
+         <p className="font-medium text-sm">Posted on {DateFormatter(props.date)}</p>
      </div>
  )
 }

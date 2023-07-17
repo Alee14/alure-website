@@ -1,5 +1,6 @@
-import getPostMetadata from "@/components/getPostMetadata";
-import PostPreview from "@/components/PostPreview";
+import getPostMetadata from "@/components/updates/getPostMetadata";
+import PostPreview from "@/components/updates/PostPreview";
+import Header from "@/components/Header";
 
 export const metadata = {
     title: 'Updates',
@@ -13,13 +14,8 @@ export default function Updates() {
     ));
     return (
         <main className="flex flex-col">
-            <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
-                <div className="md:px-40 px-10 max-w-screen-xl text-left py-24 lg:py-10 space-y-3">
-                    <h1 className="font-medium text-4xl">{metadata.title}</h1>
-                    <h2 className="font-light text-lg">{metadata.description}</h2>
-                </div>
-            </div>
-            <div className="md:px-60 px-2 py-3">
+            <Header title={metadata.title} description={metadata.description} />
+            <div className="lg:px-60 px-2 py-3">
                 <div className="px-10 grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
             </div>
         </main>

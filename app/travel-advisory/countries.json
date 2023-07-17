@@ -2,507 +2,205 @@
     "countries": [
         {
             "name": "Anatoli",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Anatoli City",
-                    "status": 0
-                },
-                {
-                    "name": "Wairua",
-                    "status": 0
-                },
-                {
-                    "name": "Vremya",
-                    "status": 0
-                }
-            ],
+            "danger": 0,
+            "image": "/countries/anatoli.webp",
+            "settlements": [],
             "history": []
         },
         {
             "name": "Auckland",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "danger": 0,
+            "image": "/countries/auckland.webp",
+            "settlements": [],
             "history": []
         },
         {
-            "name": "Aura Regions, The",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Baxford",
-                    "status": 0
-                },
-                {
-                    "name": "Energy Cove",
-                    "status": 0
-                },
-                {
-                    "name": "Motley Island",
-                    "status": 0
-                },
-                {
-                    "name": "Treasure Island",
-                    "status": 0
-                }
-
-            ],
+            "name": "Aura Regions",
+            "danger": 0,
+            "image": "/countries/auraregions.webp",
+            "settlements": [],
             "history": []
         },
         {
             "name": "Birch Boat Town",
-            "status": 0,
-            "image": "",
+            "danger": 0,
+            "image": "/countries/birchboattown.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Birch Lodges Community Town",
-            "status": 0,
-            "image": "",
+            "danger": 0,
+            "image": "/countries/birchlodges.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Country Warp",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "danger": 0,
+            "image": "/countries/countrywarp.webp",
+            "settlements": [],
             "history": []
         },
         {
             "name": "Eagle City",
-            "status": 0,
-            "image": "",
+            "danger": 0,
+            "image": "/countries/eaglecity.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Fegal",
-            "status": 3,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "danger": 3,
+            "image": "/countries/fegal.webp",
+            "settlements": [],
             "history": [
-                "May 17th 2023: Fegal has border security issues and it has not been solved as of now."
+                "May 17th, 2023: Fegal has border security issues and it has not been solved as of now."
             ]
         },
         {
             "name": "Halcandra",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "danger": 0,
+            "image": "/countries/halcandra.webp",
+            "settlements": [],
             "history": []
         },
         {
             "name": "Inkytown",
-            "status": 0,
-            "image": "",
+            "danger": 0,
+            "image": "/countries/inkytown.webp",
             "settlements": [],
             "history": []
         },
         {
-            "name": "Kemonomimi Republic, The",
-            "status": 1,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Melanie City",
-                    "status": 0
-                },
-                {
-                    "name": "Shishiro",
-                    "status": 0
-                },
-                {
-                    "name": "Koinu",
-                    "status": 0
-                },
-                {
-                    "name": "Akiyama",
-                    "status": 0
-                },
-                {
-                    "name": "Elysia",
-                    "status": 0
-                },
-                {
-                    "name": "Sakamoto",
-                    "status": 0
-                },
-                {
-                    "name": "Tsumugi",
-                    "status": 0
-                },
-                {
-                    "name": "Inugake",
-                    "status": 0
-                },
-                {
-                    "name": "Amatsuka",
-                    "status": 0
-                },
-                {
-                    "name": "Calliope",
-                    "status": 0
-                },
-                {
-                    "name": "Rocco Town",
-                    "status": 0
-                },
-                {
-                    "name": "Imari",
-                    "status": 0
-                },
-                {
-                    "name": "Kessoku Island",
-                    "status": 0
-                }
-            ],
+            "name": "Kemonomimi Republic",
+            "danger": 1,
+            "image": "/countries/kemonomimi.webp",
+            "settlements": [],
             "history": [
-                "July 15: KR has internal power issues between the President and Govenor. Governor was trying to form a new government under \"KSSR\"."
+                "July 15th, 2023: KR has internal power issues between the President and Govenor. Governor was trying to form a new government under \"KSSR\"."
             ]
         },
         {
-            "name": "Knowle Regions, The",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "name": "Knowle Regions",
+            "danger": 0,
+            "image": "/countries/knowleregions.webp",
+            "settlements": [],
             "history": []
         },
         {
             "name": "Lion Land",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Mart's Extraordinarily Sublime State",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Mojave",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Hebrith",
-                    "status": 0
-                },
-                {
-                    "name": "Symbelton",
-                    "status": 0
-                },
-                {
-                    "name": "Wetlands",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Open Republic, The",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "New Clygro Town",
-                    "status": 0
-                },
-                {
-                    "name": "New Clygro City",
-                    "status": 0
-                },
-                {
-                    "name": "New Clygro Town Industrial Estate",
-                    "status": 0
-                },
-                {
-                    "name": "Westvalley",
-                    "status": 0
-                },
-                {
-                    "name": "North Coastal Town",
-                    "status": 0
-                },
-                {
-                    "name": "Old Village",
-                    "status": 0
-                },
-                {
-                    "name": "Red Island City",
-                    "status": 0
-                },
-                {
-                    "name": "Pink Island",
-                    "status": 0
-                },
-                {
-                    "name": "Blue Island",
-                    "status": 0
-                },
-                {
-                    "name": "Purple Island",
-                    "status": 0
-                },
-                {
-                    "name": "Yellowtown",
-                    "status": 0
-                },
-                {
-                    "name": "Delancy",
-                    "status": 0
-                },
-                {
-                    "name": "Bordertown",
-                    "status": 0
-                },
-                {
-                    "name": "Small Village",
-                    "status": 0
-                },
-                {
-                    "name": "Murmur Town",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "PLC",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Plutonia Imperium",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Solstice, The Federal Democracy of",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Firefly",
-                    "status": 0
-                },
-                {
-                    "name": "Szki Lanes",
-                    "status": 0
-                },
-                {
-                    "name": "Prehevil",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Southeastern Islands, The",
-            "status": 2,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Swamp Island",
-                    "status": 0
-                },
-                {
-                    "name": "Forêt Québec",
-                    "status": 3
-                },
-                {
-                    "name": "Longhorn Hills",
-                    "status": 0
-                },
-                {
-                    "name": "Nexus Underground",
-                    "status": 0
-                }
-            ],
-            "history": [
-                "July 15: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
-            ]
-        },
-        {
-            "name": "Sulópolis",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "TAY",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Victor's Interesting City",
-                    "status": 0
-                },
-                {
-                    "name": "Rogueport",
-                    "status": 0
-                },
-                {
-                    "name": "Seven Eleven Rainforest",
-                    "status": 0
-                },
-                {
-                    "name": "Palinode",
-                    "status": 0
-                },
-                {
-                    "name": "Midcity",
-                    "status": 0
-                },
-                {
-                    "name": "Scion of Linda",
-                    "status": 0
-                },
-                {
-                    "name": "Jeremy Forest",
-                    "status": 0
-                },
-                {
-                    "name": "The Eternal Canteloupe",
-                    "status": 0
-                },
-                {
-                    "name": "September Sands",
-                    "status": 0
-                },
-                {
-                    "name": "Belindan Slopes",
-                    "status": 0
-                },
-                {
-                    "name": "Turing Town",
-                    "status": 0
-                },
-                {
-                    "name": "Bell Tower",
-                    "status": 0
-                },
-                {
-                    "name": "Szloch-by-sea",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Union of Soviet Sovereign Republics",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Veronian Controlled Territories",
-            "status": 0,
-            "image": "",
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
-            "history": []
-        },
-        {
-            "name": "Whale City, The Republic of",
-            "status": 0,
-            "image": "",
+            "danger": 0,
+            "image": "/countries/lionland.webp",
             "settlements": [],
             "history": []
         },
         {
-            "name": "Yavno, The Federation of",
-            "status": 0,
-            "settlements": [
-                {
-                    "name": "Settlement 1",
-                    "status": 0
-                }
-            ],
+            "name": "Mart's Extraordinarily Sublime State",
+            "danger": 0,
+            "image": "/countries/mess.webp",
+            "settlements": [],
             "history": []
         },
         {
-            "name": "You on Kazoo, The Republic of",
-            "status": 0,
-            "image": "",
+            "name": "Mojave",
+            "danger": 0,
+            "image": "/countries/mojave.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Open Republic",
+            "danger": 0,
+            "image": "/countries/openrepublic.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "PLC",
+            "danger": 0,
+            "image": "/countries/plc.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Plutonia Imperium",
+            "danger": 0,
+            "image": "/countries/plutoniaimperium.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "The Federal Democracy of Solstice",
+            "danger": 3,
+            "image": "/countries/solstice.webp",
+            "settlements": [],
+            "history": [
+                "July 16th, 2023: There has been a plague going around SEI, and it has now affected Solstice."
+            ]
+        },
+        {
+            "name": "Southeastern Islands",
+            "danger": 3,
+            "image": "/countries/sei.webp",
             "settlements": [
                 {
-                    "name": "Settlement 1",
-                    "status": 0
+                    "name": "Forêt Québec",
+                    "danger": 3
                 }
             ],
+            "history": [
+                "July 16th, 2023: A nuclear program has started in SEI.",
+                "July 15th, 2023: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
+            ]
+        },
+        {
+            "name": "Sulópolis",
+            "danger": 0,
+            "image": "/countries/sulopolis.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "TAY",
+            "danger": 0,
+            "image": "/countries/tay.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Union of Soviet Sovereign Republics",
+            "danger": 0,
+            "image": "/countries/ussr.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Veronian Controlled Territories",
+            "danger": 0,
+            "image": "/countries/vct.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "The Republic of Whale City",
+            "danger": 0,
+            "image": "/countries/whalecity.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "The Federation of Yavno",
+            "danger": 0,
+            "image": "/countries/yavno.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "The Republic of You on Kazoo",
+            "danger": 0,
+            "image": "/countries/youonkazoo.webp",
+            "settlements": [],
             "history": []
         }
     ]

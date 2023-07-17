@@ -1,7 +1,8 @@
 import {readFileSync} from "fs";
 import Markdown from "markdown-to-jsx"
 import matter from "gray-matter";
-import getPostMetadata from "@/components/getPostMetadata";
+import getPostMetadata from "@/components/updates/getPostMetadata";
+import DateFormatter from "@/components/updates/DateFormatter";
 
 const getPostContent = (slug) => {
     const folder = "posts/";
@@ -25,7 +26,7 @@ export default function PostPage(props) {
             <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
                 <div className="sm:px-40 px-10 max-w-screen-xl text-left py-24 lg:py-10 space-y-3">
                     <h1 className="font-medium text-4xl">{post.data.title}</h1>
-                    <h2 className="text-sm">{post.data.author} | {post.data.date}</h2>
+                    <h2 className="text-sm">{post.data.author} | {DateFormatter(post.data.date)}</h2>
                     <h2 className="font-light text-lg">{post.data.description}</h2>
                 </div>
             </div>
