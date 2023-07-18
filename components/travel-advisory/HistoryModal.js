@@ -27,9 +27,7 @@ const HistoryModal = ({ isVisible, onClose, countries, dangerLevel, history }) =
                             </div>
                             <div>
                                 <h1 className="font-medium text-2xl pt-3">History</h1>
-                                <ul>
-                                    {historyList}
-                                </ul>
+                                <ul>{historyList}</ul>
                             </div>
                         </div>
                     </div>
