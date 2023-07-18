@@ -11,11 +11,16 @@ const PSA = () => {
             defaultStyle += ' ' + styleImportant
             break;
         case 1:
+            important = "Latest News:"
+            styleImportant = "bg-zinc-700"
+            defaultStyle += ' ' + styleImportant
+            break;
+        case 2:
             important = "WARNING!"
             styleImportant = "bg-yellow-700"
             defaultStyle += ' ' + styleImportant
             break;
-        case 2:
+        case 3:
             important = "EMERGENCY!"
             styleImportant = "bg-red-800"
             defaultStyle += ' ' + styleImportant

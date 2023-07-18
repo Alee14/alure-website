@@ -3,7 +3,7 @@ import countriesData from '@/app/travel-advisory/countries.json' assert { type: 
 import HistoryModal from "@/components/travel-advisory/HistoryModal";
 import { useState } from "react";
 
-function getDangerLevel(danger) {
+export function getDangerLevel(danger) {
     let dangerLevel;
     switch (danger) {
         case 0:
@@ -26,7 +26,7 @@ function getDangerLevel(danger) {
     return dangerLevel;
 }
 
-export default function Countries(){
+export function Countries(){
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [showModal, setShowModal] = useState(false);
     const [selectedCountry, setSelectedCountry] = useState(null);

@@ -1,4 +1,4 @@
-import ListCountries from "@/components/travel-advisory/ListCountries";
+import { Countries, getDangerLevel } from "@/components/travel-advisory/ListCountries";
 import Header from "@/components/Header";
 
 export const metadata = {
@@ -33,7 +33,7 @@ export default async function TravelAdvisory(){
                 </ul>
             </div>
             <div className="sm:px-40 px-10 py-3 bg-blue-800"><h2 className="font-medium text-lg"><b className="font-bold">WARNING!</b> This page may be inaccurate at times, refer to the <a href="https://discord.com/channels/277922530973581312/1019705091336446052" className="transition ease-in-out transition-200 text-blue-300 hover:text-blue-200 active:text-blue-500">Minecraft General Announcements</a> channel for the latest updates</h2></div>
-            <ListCountries />
+            <Countries />
         </main>
     )
 }

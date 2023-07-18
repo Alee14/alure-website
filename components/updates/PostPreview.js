@@ -7,7 +7,7 @@ export default function PostPreview(props) {
          <Link href={`/updates/${props.slug}`}>
              <h2 className="font-medium text-2xl hover:underline">{props.title}</h2>
          </Link>
-         <span>By {props.author}</span>
+         <span className="text-sm">{props.author}</span>
          <p>{props.description}</p>
          <p className="font-medium text-sm">Posted on {DateFormatter(props.date)}</p>
      </div>
