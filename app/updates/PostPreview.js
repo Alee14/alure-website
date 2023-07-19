@@ -1,5 +1,5 @@
 import Link from "next/link";
-import DateFormatter from '@/app/updates/DateFormatter'
+import DateFormatter from './DateFormatter'
 
 export default function PostPreview(props) {
  return (

@@ -1,8 +1,8 @@
 import {readFileSync} from "fs";
 import Markdown from "markdown-to-jsx"
 import matter from "gray-matter";
-import getPostMetadata from "@/app/updates/getPostMetadata";
-import DateFormatter from "@/app/updates/DateFormatter";
+import getPostMetadata from "../getPostMetadata";
+import DateFormatter from "../DateFormatter";
 
 const getPostContent = (slug) => {
     const folder = "posts/";

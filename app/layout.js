@@ -1,7 +1,7 @@
 import './globals.css'
 import { Exo } from 'next/font/google'
-import Navbar from "@/app/Navbar";
-import PSA from "@/app/PSA";
+import Navbar from "./components/Navbar";
+import PSA from "./components/PSA";
 
 const exo = Exo({ subsets: ['latin'] })
 

@@ -1,5 +1,5 @@
-import { Countries, getDangerLevel } from "@/app/travel-advisory/ListCountries";
-import Header from "@/app/Header";
+import { Countries } from "./ListCountries";
+import Header from "../components/Header";
 
 export const metadata = {
     title: 'Travel Advisory',

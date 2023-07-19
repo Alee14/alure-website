@@ -1,5 +1,5 @@
-import getPostMetadata from "@/app/updates/getPostMetadata";
-import PostPreview from "@/app/updates/PostPreview";
+import getPostMetadata from "./updates/getPostMetadata";
+import PostPreview from "./updates/PostPreview";
 import Link from "next/link";
 
 export const metadata = {
