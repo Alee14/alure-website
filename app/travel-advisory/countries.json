@@ -2,6 +2,7 @@
     "countries": [
         {
             "name": "Anatoli",
+            "url": "anatoli",
             "danger": 1,
             "image": "/countries/anatoli.webp",
             "settlements": [],
@@ -9,6 +10,7 @@
         },
         {
             "name": "Auckland",
+            "url": "auckland",
             "danger": 1,
             "image": "/countries/auckland.webp",
             "settlements": [],
@@ -16,6 +18,7 @@
         },
         {
             "name": "Aura Regions",
+            "url": "auraregions",
             "danger": 2,
             "image": "/countries/auraregions.webp",
             "settlements": [],
@@ -25,6 +28,7 @@
         },
         {
             "name": "Birch Boat Town",
+            "url": "birchboattown",
             "danger": 1,
             "image": "/countries/birchboattown.webp",
             "settlements": [],
@@ -32,6 +36,7 @@
         },
         {
             "name": "Birch Lodges Community Town",
+            "url": "birchlodges",
             "danger": 1,
             "image": "/countries/birchlodges.webp",
             "settlements": [],
@@ -39,6 +44,15 @@
         },
         {
             "name": "Country Warp",
+            "url": "countrywarp",
+            "danger": 1,
+            "image": "/countries/countrywarp.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "The Federation of Doodads and Gizmos",
+            "url": "doodadsandgizmos",
             "danger": 1,
             "image": "/countries/countrywarp.webp",
             "settlements": [],
@@ -46,6 +60,7 @@
         },
         {
             "name": "Eagle City",
+            "url": "eaglecity",
             "danger": 1,
             "image": "/countries/eaglecity.webp",
             "settlements": [],
@@ -53,6 +68,7 @@
         },
         {
             "name": "Fegal",
+            "url": "fegal",
             "danger": 3,
             "image": "/countries/fegal.webp",
             "settlements": [],
@@ -63,6 +79,7 @@
         },
         {
             "name": "Halcandra",
+            "url": "halcandra",
             "danger": 1,
             "image": "/countries/halcandra.webp",
             "settlements": [],
@@ -70,6 +87,7 @@
         },
         {
             "name": "Inkytown",
+            "url": "inkytown",
             "danger": 1,
             "image": "/countries/inkytown.webp",
             "settlements": [],
@@ -77,6 +95,7 @@
         },
         {
             "name": "Kemonomimi Republic",
+            "url": "kemonomimi-republic",
             "danger": 1,
             "image": "/countries/kemonomimi.webp",
             "settlements": [],
@@ -84,6 +103,7 @@
         },
         {
             "name": "Knowle Regions",
+            "url": "knowle-regions",
             "danger": 1,
             "image": "/countries/knowleregions.webp",
             "settlements": [],
@@ -91,6 +111,15 @@
         },
         {
             "name": "Lion Land",
+            "url": "lionland",
+            "danger": 1,
+            "image": "/countries/lionland.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "landrepeatland",
+            "url": "landrepeatland",
             "danger": 1,
             "image": "/countries/lionland.webp",
             "settlements": [],
@@ -98,6 +127,7 @@
         },
         {
             "name": "Mart's Extraordinarily Sublime State",
+            "url": "mess",
             "danger": 1,
             "image": "/countries/mess.webp",
             "settlements": [],
@@ -105,6 +135,7 @@
         },
         {
             "name": "Mojave",
+            "url": "mojave",
             "danger": 1,
             "image": "/countries/mojave.webp",
             "settlements": [],
@@ -112,6 +143,7 @@
         },
         {
             "name": "Open Republic",
+            "url": "open-republic",
             "danger": 1,
             "image": "/countries/openrepublic.webp",
             "settlements": [],
@@ -119,6 +151,7 @@
         },
         {
             "name": "PLC",
+            "url": "plc",
             "danger": 1,
             "image": "/countries/plc.webp",
             "settlements": [],
@@ -126,6 +159,7 @@
         },
         {
             "name": "Plutonia Imperium",
+            "url": "plutonia-imperium",
             "danger": 1,
             "image": "/countries/plutoniaimperium.webp",
             "settlements": [],
@@ -133,6 +167,7 @@
         },
         {
             "name": "The Federal Democracy of Solstice",
+            "url": "solstice",
             "danger": 3,
             "image": "/countries/solstice.webp",
             "settlements": [],
@@ -142,6 +177,7 @@
         },
         {
             "name": "Southeastern Islands",
+            "url": "southeastern-islands",
             "danger": 3,
             "image": "/countries/sei.webp",
             "settlements": [
@@ -151,12 +187,12 @@
                 }
             ],
             "history": [
-                "July 16th, 2023: A nuclear program has started in SEI.",
                 "July 15th, 2023: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
             ]
         },
         {
             "name": "Sulópolis",
+            "url": "sulopolis",
             "danger": 1,
             "image": "/countries/sulopolis.webp",
             "settlements": [],
@@ -164,6 +200,7 @@
         },
         {
             "name": "TAY",
+            "url": "tay",
             "danger": 1,
             "image": "/countries/tay.webp",
             "settlements": [],
@@ -171,6 +208,7 @@
         },
         {
             "name": "Union of Soviet Sovereign Republics",
+            "url": "ussr",
             "danger": 1,
             "image": "/countries/ussr.webp",
             "settlements": [],
@@ -178,13 +216,23 @@
         },
         {
             "name": "Veronian Controlled Territories",
+            "url": "veronian-controlled-territories",
             "danger": 1,
             "image": "/countries/vct.webp",
             "settlements": [],
             "history": []
         },
         {
+            "name": "Vyxalla",
+            "url": "vyxalla",
+            "danger": 1,
+            "image": "/countries/whalecity.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
             "name": "The Republic of Whale City",
+            "url": "whale-city",
             "danger": 1,
             "image": "/countries/whalecity.webp",
             "settlements": [],
@@ -192,6 +240,7 @@
         },
         {
             "name": "The Federation of Yavno",
+            "url": "yavno",
             "danger": 1,
             "image": "/countries/yavno.webp",
             "settlements": [],
@@ -199,6 +248,7 @@
         },
         {
             "name": "The Republic of You on Kazoo",
+            "url": "you-on-kazoo",
             "danger": 1,
             "image": "/countries/youonkazoo.webp",
             "settlements": [],
