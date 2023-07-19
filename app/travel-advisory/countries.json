@@ -2,49 +2,49 @@
     "countries": [
         {
             "name": "Anatoli",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/anatoli.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Auckland",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/auckland.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Aura Regions",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/auraregions.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Birch Boat Town",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/birchboattown.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Birch Lodges Community Town",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/birchlodges.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Country Warp",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/countrywarp.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Eagle City",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/eaglecity.webp",
             "settlements": [],
             "history": []
@@ -55,75 +55,75 @@
             "image": "/countries/fegal.webp",
             "settlements": [],
             "history": [
-                "May 17th, 2023: Fegal has border security issues and it has not been solved as of now."
+                "May 17th, 2123: Fegal has border security issues and it has not been solved as of now."
             ]
         },
         {
             "name": "Halcandra",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/halcandra.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Inkytown",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/inkytown.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Kemonomimi Republic",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/kemonomimi.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Knowle Regions",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/knowleregions.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Lion Land",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/lionland.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Mart's Extraordinarily Sublime State",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/mess.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Mojave",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/mojave.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Open Republic",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/openrepublic.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "PLC",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/plc.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Plutonia Imperium",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/plutoniaimperium.webp",
             "settlements": [],
             "history": []
@@ -134,7 +134,7 @@
             "image": "/countries/solstice.webp",
             "settlements": [],
             "history": [
-                "July 16th, 2023: There has been a plague going around SEI, and it has now affected Solstice."
+                "July 16th, 2123: There has been a plague going around SEI, and it has now affected Solstice."
             ]
         },
         {
@@ -148,55 +148,55 @@
                 }
             ],
             "history": [
-                "July 16th, 2023: A nuclear program has started in SEI.",
-                "July 15th, 2023: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
+                "July 16th, 2123: A nuclear program has started in SEI.",
+                "July 15th, 2123: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
             ]
         },
         {
             "name": "Sulópolis",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/sulopolis.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "TAY",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/tay.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Union of Soviet Sovereign Republics",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/ussr.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "Veronian Controlled Territories",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/vct.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "The Republic of Whale City",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/whalecity.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "The Federation of Yavno",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/yavno.webp",
             "settlements": [],
             "history": []
         },
         {
             "name": "The Republic of You on Kazoo",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/youonkazoo.webp",
             "settlements": [],
             "history": []
