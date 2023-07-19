@@ -16,10 +16,12 @@
         },
         {
             "name": "Aura Regions",
-            "danger": 1,
+            "danger": 2,
             "image": "/countries/auraregions.webp",
             "settlements": [],
-            "history": []
+            "history": [
+                "July 19th, 2023: There is ongoing cases of the parasite within Aura Regions."
+            ]
         },
         {
             "name": "Birch Boat Town",
@@ -55,6 +57,7 @@
             "image": "/countries/fegal.webp",
             "settlements": [],
             "history": [
+                "July 19th, 2023: There is a parasite going around the world.",
                 "May 17th, 2123: Fegal has border security issues and it has not been solved as of now."
             ]
         },
