@@ -1,6 +1,6 @@
-import getPostMetadata from "@/components/updates/getPostMetadata";
-import PostPreview from "@/components/updates/PostPreview";
-import Header from "@/components/Header";
+import getPostMetadata from "@/app/updates/getPostMetadata";
+import PostPreview from "@/app/updates/PostPreview";
+import Header from "@/app/Header";
 
 export const metadata = {
     title: 'Updates',

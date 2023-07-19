@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Header from "@/app/Header";
 
 export const metadata = {
     title: 'Services',

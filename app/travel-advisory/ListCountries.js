@@ -1,6 +1,6 @@
 "use client"
 import countriesData from '@/app/travel-advisory/countries.json' assert { type: 'json' };
-import HistoryModal from "@/components/travel-advisory/HistoryModal";
+import HistoryModal from "@/app/travel-advisory/HistoryModal";
 import { useState } from "react";
 
 export function getDangerLevel(danger) {
