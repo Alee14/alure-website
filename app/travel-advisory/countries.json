@@ -54,7 +54,7 @@
             "name": "The Federation of Doodads and Gizmos",
             "url": "doodadsandgizmos",
             "danger": 1,
-            "image": "/countries/countrywarp.webp",
+            "image": "/countries/doodadsandgizmos.webp",
             "settlements": [],
             "history": []
         },
@@ -121,7 +121,7 @@
             "name": "landrepeatland",
             "url": "landrepeatland",
             "danger": 1,
-            "image": "/countries/lionland.webp",
+            "image": "/countries/landrepeatland.webp",
             "settlements": [],
             "history": []
         },
@@ -226,7 +226,7 @@
             "name": "Vyxalla",
             "url": "vyxalla",
             "danger": 1,
-            "image": "/countries/whalecity.webp",
+            "image": "/countries/vyxalla.webp",
             "settlements": [],
             "history": []
         },
