@@ -43,6 +43,22 @@ export default function Services() {
                             </div>
                         </div>
                     </li>
+                    <li>
+                        <div className="bg-center bg-no-repeat bg-[url('/regions/alee-isle.webp')] bg-gray-600 bg-blend-multiply">
+                            <div className="sm:px-40 px-10 py-14 space-y-2">
+                                <h1 className="font-medium sm:text-4xl text-3xl">Gigabit Mall</h1>
+                                <h2 className="text-xl">Commercial shopping mall</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="bg-center bg-no-repeat bg-[url('/regions/alee-isle.webp')] bg-gray-600 bg-blend-multiply">
+                            <div className="sm:px-40 px-10 py-14 space-y-2">
+                                <h1 className="font-medium sm:text-4xl text-3xl">Bill Gates Hospital</h1>
+                                <h2 className="text-xl">Hospital</h2>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </main>
