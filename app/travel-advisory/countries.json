@@ -168,7 +168,9 @@
             "danger": 2,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": []
+            "history": [
+                "July 23rd 2023: There is still currently parasite cases in Solstice."
+            ]
         },
         {
             "name": "Southeastern Islands",
