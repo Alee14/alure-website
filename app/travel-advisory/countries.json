@@ -3,7 +3,7 @@
         {
             "name": "Anatoli",
             "url": "anatoli",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/anatoli.webp",
             "settlements": [],
             "history": []
@@ -11,7 +11,7 @@
         {
             "name": "Auckland",
             "url": "auckland",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/auckland.webp",
             "settlements": [],
             "history": []
@@ -19,17 +19,15 @@
         {
             "name": "Aura Regions",
             "url": "auraregions",
-            "danger": 2,
+            "danger": 0,
             "image": "/countries/auraregions.webp",
             "settlements": [],
-            "history": [
-                "July 19th, 2023: There is ongoing cases of the parasite within Aura Regions."
-            ]
+            "history": []
         },
         {
             "name": "Birch Boat Town",
             "url": "birchboattown",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/birchboattown.webp",
             "settlements": [],
             "history": []
@@ -37,7 +35,7 @@
         {
             "name": "Birch Lodges Community Town",
             "url": "birchlodges",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/birchlodges.webp",
             "settlements": [],
             "history": []
@@ -45,7 +43,7 @@
         {
             "name": "Country Warp",
             "url": "countrywarp",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/countrywarp.webp",
             "settlements": [],
             "history": []
@@ -53,7 +51,7 @@
         {
             "name": "The Federation of Doodads and Gizmos",
             "url": "doodadsandgizmos",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/doodadsandgizmos.webp",
             "settlements": [],
             "history": []
@@ -61,7 +59,7 @@
         {
             "name": "Eagle City",
             "url": "eaglecity",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/eaglecity.webp",
             "settlements": [],
             "history": []
@@ -73,14 +71,13 @@
             "image": "/countries/fegal.webp",
             "settlements": [],
             "history": [
-                "July 19th, 2023: There is a parasite going around the world.",
                 "May 17th, 2023: Fegal has border security issues and it has not been solved as of now."
             ]
         },
         {
             "name": "Halcandra",
             "url": "halcandra",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/halcandra.webp",
             "settlements": [],
             "history": []
@@ -88,7 +85,7 @@
         {
             "name": "Inkytown",
             "url": "inkytown",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/inkytown.webp",
             "settlements": [],
             "history": []
@@ -96,7 +93,7 @@
         {
             "name": "Kemonomimi Republic",
             "url": "kemonomimi-republic",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/kemonomimi.webp",
             "settlements": [],
             "history": []
@@ -104,7 +101,7 @@
         {
             "name": "Knowle Regions",
             "url": "knowle-regions",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/knowleregions.webp",
             "settlements": [],
             "history": []
@@ -112,7 +109,7 @@
         {
             "name": "Lion Land",
             "url": "lionland",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/lionland.webp",
             "settlements": [],
             "history": []
@@ -120,7 +117,7 @@
         {
             "name": "landrepeatland",
             "url": "landrepeatland",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/landrepeatland.webp",
             "settlements": [],
             "history": []
@@ -128,7 +125,7 @@
         {
             "name": "Mart's Extraordinarily Sublime State",
             "url": "mess",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/mess.webp",
             "settlements": [],
             "history": []
@@ -136,7 +133,7 @@
         {
             "name": "Mojave",
             "url": "mojave",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/mojave.webp",
             "settlements": [],
             "history": []
@@ -144,7 +141,7 @@
         {
             "name": "Open Republic",
             "url": "open-republic",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/openrepublic.webp",
             "settlements": [],
             "history": []
@@ -152,7 +149,7 @@
         {
             "name": "PLC",
             "url": "plc",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/plc.webp",
             "settlements": [],
             "history": []
@@ -160,7 +157,7 @@
         {
             "name": "Plutonia Imperium",
             "url": "plutonia-imperium",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/plutoniaimperium.webp",
             "settlements": [],
             "history": []
@@ -168,17 +165,15 @@
         {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
-            "danger": 3,
+            "danger": 2,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": [
-                "July 16th, 2023: There has been a plague going around SEI, and it has now affected Solstice."
-            ]
+            "history": []
         },
         {
             "name": "Southeastern Islands",
             "url": "southeastern-islands",
-            "danger": 3,
+            "danger": 1,
             "image": "/countries/sei.webp",
             "settlements": [
                 {
@@ -187,13 +182,13 @@
                 }
             ],
             "history": [
-                "July 15th, 2023: A disease has been going around Forêt Québec, we have decided to put border control in the exit of Alure Regions to SEI"
+                "July 15th, 2023: Instability has been surfacing Forêt Québec often."
             ]
         },
         {
             "name": "Sulópolis",
             "url": "sulopolis",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/sulopolis.webp",
             "settlements": [],
             "history": []
@@ -201,7 +196,7 @@
         {
             "name": "TAY",
             "url": "tay",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/tay.webp",
             "settlements": [],
             "history": []
@@ -209,7 +204,7 @@
         {
             "name": "Union of Soviet Sovereign Republics",
             "url": "ussr",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/ussr.webp",
             "settlements": [],
             "history": []
@@ -217,7 +212,7 @@
         {
             "name": "Veronian Controlled Territories",
             "url": "veronian-controlled-territories",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/vct.webp",
             "settlements": [],
             "history": []
@@ -225,7 +220,7 @@
         {
             "name": "Vyxalla",
             "url": "vyxalla",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/vyxalla.webp",
             "settlements": [],
             "history": []
@@ -233,7 +228,7 @@
         {
             "name": "The Republic of Whale City",
             "url": "whale-city",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/whalecity.webp",
             "settlements": [],
             "history": []
@@ -241,7 +236,7 @@
         {
             "name": "The Federation of Yavno",
             "url": "yavno",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/yavno.webp",
             "settlements": [],
             "history": []
@@ -249,7 +244,7 @@
         {
             "name": "The Republic of You on Kazoo",
             "url": "you-on-kazoo",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/youonkazoo.webp",
             "settlements": [],
             "history": []
