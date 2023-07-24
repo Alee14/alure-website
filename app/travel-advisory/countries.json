@@ -165,12 +165,10 @@
         {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
-            "danger": 2,
+            "danger": 0,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": [
-                "July 23rd 2023: There is still currently parasite cases in Solstice."
-            ]
+            "history": []
         },
         {
             "name": "Southeastern Islands",
