@@ -1,0 +1,40 @@
+---
+import psaMessage from "./psa.json";
+let defaultStyle = "flex flex-row md:px-40 sm:px-30 sm:py-0.5 p-3 space-x-2";
+let styleImportant;
+let important;
+switch (psaMessage.important) {
+    case 0:
+        styleImportant = "hidden"
+        defaultStyle += ' ' + styleImportant
+        break;
+    case 1:
+        important = "Latest News:"
+        styleImportant = "bg-zinc-700"
+        defaultStyle += ' ' + styleImportant
+        break;
+    case 2:
+        important = "WARNING!"
+        styleImportant = "bg-yellow-700"
+        defaultStyle += ' ' + styleImportant
+        break;
+    case 3:
+        important = "EMERGENCY!"
+        styleImportant = "bg-red-800"
+        defaultStyle += ' ' + styleImportant
+        break;
+}
+---
+
+<div class={defaultStyle}>
+    <p class="text-lg font-medium sm:p-0">{important}</p>
+    <div class="flex sm:flex-row flex-col sm:space-x-3">
+        <p>{psaMessage.announcement}</p>
+        <p class="text-blue-200 hover:text-blue-500 active:text-blue-700">
+            {psaMessage.link && (
+                    <a href={psaMessage.link}>
+                        Learn more ↗
+                    </a>
+            )}</p>
+    </div>
+</div>

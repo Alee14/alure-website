@@ -1,0 +1,32 @@
+---
+import Countries from '../components/travel-advisory/countries.json'
+import Layout from "../layouts/Layout.astro";
+---
+<Layout>
+    <main class="flex flex-col">
+        <div>
+            <h1 class="p-5 sm:px-40 px-10 text-3xl" id="legend">Legend</h1>
+            <ul>
+                <li class="p-6 sm:px-40 px-10 bg-green-950">
+                    <p class="font-medium text-lg">Take normal security precautions</p>
+                    <p>Take similar precautions to those you would take in Alure Regions.</p>
+                </li>
+                <li class="p-6 sm:px-40 px-10 bg-yellow-700">
+                    <p class="font-medium text-lg">Exercise a high degree of caution</p>
+                    <p>There are certain safety and security concerns or the situation could change quickly. Be very cautious at all times, monitor local media and follow the instructions of local authorities.</p>
+                    <p><b class="font-semibold"> IMPORTANT:</b> The two levels below are official Government of Alure Regions Travel Advisories and are issued when the safety and security of Alurians travelling or living in the country or region may be at risk.</p>
+                </li>
+                <li class="p-6 sm:px-40 px-10 bg-orange-700">
+                    <p class="font-medium text-lg">Avoid non-essential travel</p>
+                    <p>Your safety and security could be at risk. You should think about your need to travel to this country, territory or region based on family or business requirements, knowledge of or familiarity with the region, and other factors. If you are already there, think about whether you really need to be there. If you do not need to be there, you should think about leaving.</p>
+                </li>
+                <li class="p-6 sm:px-40 px-10 bg-red-950">
+                    <p class="font-medium text-lg">Avoid all travel</p>
+                    <p>You should not travel to this country, territory or region. Your personal safety and security are at great risk. If you are already there, you should think about leaving if it is safe to do so.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="sm:px-40 px-10 py-3 bg-blue-800"><h2 class="font-medium text-lg"><b class="font-bold">WARNING!</b> This page may be inaccurate at times, refer to the <a href="https://discord.com/channels/277922530973581312/1019705091336446052" class="transition ease-in-out transition-200 text-blue-300 hover:text-blue-200 active:text-blue-500">Minecraft General Announcements</a> channel for the latest updates</h2></div>
+        <Countries client:visible />
+    </main>
+</Layout>

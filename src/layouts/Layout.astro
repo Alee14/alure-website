@@ -1,0 +1,31 @@
+---
+import Navbar from "../components/Navbar";
+import PSA from "../components/PSA.astro";
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description}>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<div class="sm:px-10 px-5 py-0.5 font-medium space-x-3 text-right">
+			<a href="https://aircs.racing" class="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">aircs.racing ↗</a>
+			<a href="https://alee14.me" class="transition duration-150 ease-out hover:ease-in md:hover:text-green-500">alee14.me ↗</a>
+		</div>
+		<PSA/>
+		<Navbar client:load />
+		<slot />
+		<footer class="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base px-5 sm:px-0">
+			<p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
+			<p>This website is proudly written using Astro and Tailwind CSS</p>
+		</footer>
+	</body>
+</html>
