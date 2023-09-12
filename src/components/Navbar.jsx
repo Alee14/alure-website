@@ -24,7 +24,7 @@ export default function Navbar(){
                         ['Home', '/'],
                         ['Updates', '/updates'],
                         ['Services', '/services'],
-                        ['Travel Advisory', '/travel-advisory'],
+                        ['Travel Advisory', '/travel-advisory']
                     ].map(([title, url]) => (
                         <li>
                             <a href={url} className="transition duration-150 ease-out hover:ease-in block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent" onClick={() => setNavbar(!navbar)}>

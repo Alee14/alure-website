@@ -26,7 +26,6 @@ export function getDangerLevel(danger) {
 }
 
 export function Countries(){
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [showModal, setShowModal] = useState(false);
     const [selectedCountry, setSelectedCountry] = useState(null);
     const [selectedDangerLevel, setSelectedDangerLevel] = useState(null);

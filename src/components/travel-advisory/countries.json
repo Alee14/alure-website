@@ -67,12 +67,10 @@
         {
             "name": "Fegal",
             "url": "fegal",
-            "danger": 3,
+            "danger": 0,
             "image": "/countries/fegal.webp",
             "settlements": [],
-            "history": [
-                "May 17th, 2023: Fegal has border security issues and it has not been solved as of now."
-            ]
+            "history": []
         },
         {
             "name": "Halcandra",
@@ -147,6 +145,14 @@
             "history": []
         },
         {
+            "name": "Ownage",
+            "url": "ownage",
+            "danger": 0,
+            "image": "/countries/youonkazoo.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
             "name": "PLC",
             "url": "plc",
             "danger": 0,
@@ -165,10 +171,12 @@
         {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
-            "danger": 0,
+            "danger": 3,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": []
+            "history": [
+                "September 9th, 2023: There has been a vote on Solstice to \"recognize\" KR as a prison."
+            ]
         },
         {
             "name": "Southeastern Islands",
@@ -234,18 +242,10 @@
             "history": []
         },
         {
-            "name": "The Federation of Yavno",
+            "name": "Yavno Republic",
             "url": "yavno",
             "danger": 0,
             "image": "/countries/yavno.webp",
-            "settlements": [],
-            "history": []
-        },
-        {
-            "name": "The Republic of You on Kazoo",
-            "url": "you-on-kazoo",
-            "danger": 0,
-            "image": "/countries/youonkazoo.webp",
             "settlements": [],
             "history": []
         }
