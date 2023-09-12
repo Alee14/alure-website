@@ -1,4 +1,4 @@
-import countriesData from './countries.json' assert { type: 'json' };
+import countriesData from './countries.json';
 import HistoryModal from "./HistoryModal";
 import { useState } from "preact/hooks";
 
