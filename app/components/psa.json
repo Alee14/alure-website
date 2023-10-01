@@ -1,5 +1,5 @@
 {
-  "important": 0,
-  "announcement": "No important announcements at this time.",
-  "link": "/travel-advisory"
+  "important": 2,
+  "announcement": "Due to the recent attacks in KR, we have put a watchlist warning.",
+  "link": "/updates/terrorist-watchlist"
 }
