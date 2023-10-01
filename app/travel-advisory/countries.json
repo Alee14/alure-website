@@ -67,12 +67,10 @@
         {
             "name": "Fegal",
             "url": "fegal",
-            "danger": 3,
+            "danger": 0,
             "image": "/countries/fegal.webp",
             "settlements": [],
-            "history": [
-                "May 17th, 2023: Fegal has border security issues and it has not been solved as of now."
-            ]
+            "history": []
         },
         {
             "name": "Halcandra",
@@ -147,6 +145,16 @@
             "history": []
         },
         {
+            "name": "Ownage",
+            "url": "ownage",
+            "danger": 3,
+            "image": "/countries/youonkazoo.webp",
+            "settlements": [],
+            "history": [
+                "October 1st, 2023: Associated with a terrorist group."
+            ]
+        },
+        {
             "name": "PLC",
             "url": "plc",
             "danger": 0,
@@ -165,10 +173,12 @@
         {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": []
+            "history": [
+                "September 30th, 2023: A government official involved with a terrorist group."
+            ]
         },
         {
             "name": "Southeastern Islands",
@@ -234,18 +244,10 @@
             "history": []
         },
         {
-            "name": "The Federation of Yavno",
+            "name": "The Republic of Yavno",
             "url": "yavno",
             "danger": 0,
             "image": "/countries/yavno.webp",
-            "settlements": [],
-            "history": []
-        },
-        {
-            "name": "The Republic of You on Kazoo",
-            "url": "you-on-kazoo",
-            "danger": 0,
-            "image": "/countries/youonkazoo.webp",
             "settlements": [],
             "history": []
         }
