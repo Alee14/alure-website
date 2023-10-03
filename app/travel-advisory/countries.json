@@ -147,12 +147,10 @@
         {
             "name": "Ownage",
             "url": "ownage",
-            "danger": 3,
-            "image": "/countries/youonkazoo.webp",
+            "danger": 0,
+            "image": "/countries/ownage.webp",
             "settlements": [],
-            "history": [
-                "October 1st, 2023: Associated with a terrorist group."
-            ]
+            "history": []
         },
         {
             "name": "PLC",
@@ -177,7 +175,9 @@
             "image": "/countries/solstice.webp",
             "settlements": [],
             "history": [
-                "September 30th, 2023: A government official involved with a terrorist group."
+                "There has been internal turmoil in Solstice for a while, and not limiting to:",
+                "- Passing aggressive laws against for sending prisoners to another country.",
+                "- Corruption within the government."
             ]
         },
         {
@@ -188,7 +188,7 @@
             "settlements": [
                 {
                     "name": "Forêt Québec",
-                    "danger": 3
+                    "danger": 1
                 }
             ],
             "history": [

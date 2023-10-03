@@ -34,7 +34,7 @@ export default function Home() {
                         <div className="sm:px-40 px-10 py-14 space-y-2">
                             <h1 className="font-medium sm:text-5xl text-3xl">BreadCroust</h1>
                             <span>Est. 2018 - Premier: Croust</span>
-                            <h2 className="text-lg">Home to MinePot Barton Centre and athletics</h2>
+                            <h2 className="text-lg">Home to the Alurian athletes</h2>
                         </div>
                 </div>
                 </li>
