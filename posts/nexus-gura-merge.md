@@ -1,5 +1,5 @@
 ---
-title: Nexus Underground & Gura Villa integration
+title: Nexus Underground & Gura Villa Merge
 description: The plan for merging Nexus Underground and Gura Villa into Alure Regions
 author: The President of the Alure Regions
 date: '2023-10-03'
