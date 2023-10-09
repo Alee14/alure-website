@@ -169,6 +169,14 @@
             "history": []
         },
         {
+            "name": "The Republic of Québec",
+            "url": "republic-of-quebec",
+            "danger": 0,
+            "image": "/countries/quebec.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
             "danger": 1,
@@ -178,21 +186,6 @@
                 "There has been internal turmoil in Solstice for a while, and not limiting to:",
                 "- Passing aggressive laws against for sending prisoners to another country.",
                 "- Corruption within the government."
-            ]
-        },
-        {
-            "name": "Southeastern Islands",
-            "url": "southeastern-islands",
-            "danger": 1,
-            "image": "/countries/sei.webp",
-            "settlements": [
-                {
-                    "name": "Forêt Québec",
-                    "danger": 1
-                }
-            ],
-            "history": [
-                "July 15th, 2023: Frequent instances of instability have been surfacing in Forêt Québec lately."
             ]
         },
         {
