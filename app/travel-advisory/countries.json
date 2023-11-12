@@ -179,14 +179,10 @@
         {
             "name": "The Federal Democracy of Solstice",
             "url": "solstice",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": [
-                "There has been internal turmoil in Solstice for a while, and not limiting to:",
-                "- Passing aggressive laws against for sending prisoners to another country.",
-                "- Corruption within the government."
-            ]
+            "history": []
         },
         {
             "name": "Sulópolis",
