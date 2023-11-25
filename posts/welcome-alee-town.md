@@ -17,7 +17,7 @@ The government of Alee Town is hard at work, passionately engaged in revitalizin
 
 Alee Town is undergoing a comprehensive makeover, transitioning from a neglected area to a well-organized and vibrant town. The current focus of the government is on implementing essential reforms to establish Alee Town as a proper and thriving community.
 
-Join the Journey!
+# Join the Journey!
 
 Embark on this exciting journey with us as we witness the evolution of Alee Town within the Alure Regions. Together, let's contribute to the growth and prosperity of this newly integrated community. Stay tuned for further updates and announcements on the ongoing development of Alee Town!
 
