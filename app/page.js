@@ -16,7 +16,7 @@ export default function Home() {
         <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-500 bg-blend-multiply">
             <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 space-y-3">
                 <h1 className="font-medium md:text-5xl text-4xl">Welcome to the Alure Regions</h1>
-                <h2 className="font-light md:text-3xl text-xl">The official website of the Government of Alure Regions</h2>
+                <h2 className="font-light md:text-3xl text-xl">The official website of the Government of the Alure Regions</h2>
             </div>
         </div>
             <ul>
@@ -25,7 +25,7 @@ export default function Home() {
                         <div className="sm:px-40 px-10 py-14 space-y-2">
                             <h1 className="font-medium sm:text-5xl text-3xl">Alee Isle</h1>
                             <span>Est. 2017 - Premier: Alee</span>
-                            <h2 className="text-lg">Capital of Alure Regions and the original home of MinePot</h2>
+                            <h2 className="text-lg">Capital of the Alure Regions and the original home of MinePot</h2>
                         </div>
                     </div>
                 </li>
