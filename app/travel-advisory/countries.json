@@ -171,10 +171,19 @@
         {
             "name": "The Republic of Québec",
             "url": "republic-of-quebec",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/quebec.webp",
-            "settlements": [],
-            "history": []
+            "settlements": [
+		    {
+		       "name": "Forêt Québec",
+		       "danger": 3
+		    
+		    }
+	    
+	    ],
+            "history": [
+	    "December 6th, 2023: Massive fire at a FroviliInc in Forêt Québec."
+	    ]
         },
         {
             "name": "The Solstice Federation",
