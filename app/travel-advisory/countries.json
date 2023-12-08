@@ -17,7 +17,7 @@
             "history": []
         },
         {
-            "name": "Aura Regions",
+            "name": "The Aura Regions",
             "url": "auraregions",
             "danger": 0,
             "image": "/countries/auraregions.webp",
@@ -33,10 +33,10 @@
             "history": []
         },
         {
-            "name": "Birch Lodges Community Town",
-            "url": "birchlodges",
+            "name": "Banatown",
+            "url": "banatown",
             "danger": 0,
-            "image": "/countries/birchlodges.webp",
+            "image": "/countries/banatown.webp",
             "settlements": [],
             "history": []
         },
@@ -174,16 +174,14 @@
             "danger": 1,
             "image": "/countries/quebec.webp",
             "settlements": [
-		    {
-		       "name": "Forêt Québec",
-		       "danger": 3
-		    
-		    }
-	    
-	    ],
+                {
+                    "name": "Forêt Québec",
+                    "danger": 3
+                }
+            ],
             "history": [
-	    "December 6th, 2023: Massive fire at a FroviliInc in Forêt Québec."
-	    ]
+                "December 6th, 2023: Massive fire at a FroviliInc in Forêt Québec."
+            ]
         },
         {
             "name": "The Solstice Federation",
@@ -198,6 +196,14 @@
             "url": "sulopolis",
             "danger": 0,
             "image": "/countries/sulopolis.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Summasol",
+            "url": "summasol",
+            "danger": 0,
+            "image": "/countries/summasol.webp",
             "settlements": [],
             "history": []
         },

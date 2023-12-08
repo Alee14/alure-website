@@ -57,7 +57,7 @@ export default function Home() {
                     </div>
                 </li>
             </ul>
-        <div className="sm:px-40 px-10 py-3 space-y-3">
+        <div className="sm:px-40 px-10 py-3 space-y-3 bg-zinc-800">
             <h1 className="text-2xl font-medium" id="about">About Alure Regions</h1>
             <p>Alure Regions was founded in July 2023 with the goal of achieving greater autonomy in our regions.</p>
             <p>Originally known as Alee Isle Regions, we later became Southeastern Islands before branching out on our own.</p>
