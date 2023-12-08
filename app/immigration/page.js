@@ -23,8 +23,6 @@ export default function Immigration() {
                 <h1 className="text-2xl font-medium">Sections of the Application</h1>
                 <ul>
                     <li>Personal Information: Provide your Family Name, First Given Name, and Date of Birth.</li>
-                    <li>Compliance Affirmation: Check the corresponding boxes for the activities you have undertaken.
-                    </li>
                     <li>The Oath of Citizenship: Upload an audio clip of yourself reciting the entire oath.</li>
                     <li>Final Section: Upload your signature.</li>
                 </ul>
@@ -33,6 +31,7 @@ export default function Immigration() {
                     verification code.</p>
                 <p>Next, proceed to the Regional Hall in Alee Isle to submit a valid identification document (such as a
                     Passport or Driver&apos;s License) along with the verification code.</p>
+                <p>You will need to answer some questions in order to check whether you are able to live in the Alure Regions.</p>
                 <p>Following this, you will be required to visit a passport office to obtain an official
                     government-issued passport.</p>
             </div>
