@@ -1,0 +1,55 @@
+Subject: [PATCH] Maybe revisit this at some point?
+---
+Index: app/layout.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/layout.js b/app/layout.js
+--- a/app/layout.js	(revision fe5243412d918b1ff843d8986f514f732548c6ee)
++++ b/app/layout.js	(date 1702157063403)
+@@ -16,19 +16,31 @@
+ export default function RootLayout({ children }) {
+   return (
+     <html lang="en">
+-      <body className={exo.className}>
+-      <div className="sm:px-10 px-5 py-0.5 font-medium space-x-3 text-right">
+-          <a href="https://aircs.racing" className="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">aircs.racing ↗</a>
+-          <a href="https://alee14.me" className="transition duration-150 ease-out hover:ease-in md:hover:text-green-500">alee14.me ↗</a>
+-      </div>
+-      <PSA/>
+-      <Navbar/>
+-      {children}
+-      <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base px-5 sm:px-0">
+-          <p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
+-          <p>This website is proudly written using Next.JS and Tailwind CSS</p>
+-      </footer>
+-      </body>
++    <body className={exo.className}>
++    <div className="flex justify-between sm:px-10 px-5 py-0.5 font-medium">
++        <div className="text-sm">
++            The Alure Regions is a fictional country made for the bits & Bytes Minecraft Server
++        </div>
++        <div className="space-x-3 text-right">
++            <a href="https://aircs.racing"
++               className="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">aircs.racing
++                ↗</a>
++            <a href="https://alee14.me"
++               className="transition duration-150 ease-out hover:ease-in md:hover:text-green-500">alee14.me
++                ↗</a>
++        </div>
++    </div>
++
++    <PSA/>
++    <Navbar/>
++    {children}
++    <footer
++        className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base px-5 sm:px-0">
++        <p>Website made by <a className="transition duration-150 ease-out text-cyan-400 hover:text-cyan-600"
++                              href="https://alee14.me">Andrew Lee</a> (Alee14)</p>
++        <p>This website is proudly written using Next.JS and Tailwind CSS</p>
++    </footer>
++    </body>
+     </html>
+   )
+ }

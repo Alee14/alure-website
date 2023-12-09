@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <Navbar/>
       {children}
       <footer className="flex flex-col text-center py-3 space-y-2 bg-blue-950 text-light text-sm sm:text-base px-5 sm:px-0">
-          <p>Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
+          <p>The Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</p>
           <p>This website is proudly written using Next.JS and Tailwind CSS</p>
       </footer>
       </body>

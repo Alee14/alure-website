@@ -36,7 +36,7 @@ const PSA = () => {
                 <p className="text-blue-200 hover:text-blue-500 active:text-blue-700">
                 {psaMessage.link && (
                     <Link href={psaMessage.link}>
-                        Learn more ↗
+                        Learn more
                     </Link>
                 )}</p>
             </div>
