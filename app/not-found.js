@@ -2,10 +2,13 @@ import Link from "next/link";
 
 export default function NotFound() {
     return (
-        <main className="flex flex-col justify-center context-center text-center p-2">
-            <h1 className="text-2xl font-bold">404</h1>
-            <h1 className="text-2xl font-bold">The page you are looking for does not exist.</h1>
-            <Link href='/'><p className="text-cyan-600 hover:text-cyan-500">Head back to the homepage</p></Link>
+        <main className="flex flex-col text-center">
+            <div className="bg-center bg-no-repeat bg-[url('/jumbotron.webp')] bg-gray-700 bg-blend-multiply">
+                <div className="mx-auto max-w-screen-xl h-screen pt-40 space-y-5">
+                    <h1 className="text-7xl font-medium">404</h1>
+                    <h1 className="text-4xl font-light">The page you are looking for does not exist.</h1>
+                </div>
+            </div>
         </main>
     )
 }
