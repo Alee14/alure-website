@@ -3,7 +3,11 @@ import countriesData from '@/app/travel-advisory/countries.json' assert { type: 
 import HistoryModal from "@/app/travel-advisory/HistoryModal";
 import { useState } from "react";
 
-export function getDangerLevel(danger) {
+export function getDangerLevel(danger, override) {
+    if (danger === 0 && override !== undefined) {
+        danger = override;
+    }
+
     let dangerLevel;
     switch (danger) {
         case 0:

@@ -20,7 +20,7 @@ export default async function TravelAdvisory(){
                     <li className="p-6 sm:px-40 px-10 bg-yellow-700">
                         <p className="font-medium text-lg">Exercise a high degree of caution</p>
                         <p>There are certain safety and security concerns or the situation could change quickly. Be very cautious at all times, monitor local media and follow the instructions of local authorities.</p>
-                        <p><b className="font-semibold"> IMPORTANT:</b> The two levels below are official Government of Alure Regions Travel Advisories and are issued when the safety and security of Alurians travelling or living in the country or region may be at risk.</p>
+                        <p><b className="font-semibold">IMPORTANT:</b> The two levels below are official Government of Alure Regions Travel Advisories and are issued when the safety and security of Alurians travelling or living in the country or region may be at risk.</p>
                     </li>
                     <li className="p-6 sm:px-40 px-10 bg-orange-700">
                         <p className="font-medium text-lg">Avoid non-essential travel</p>
