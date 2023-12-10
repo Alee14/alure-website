@@ -186,10 +186,12 @@
         {
             "name": "The Solstice Federation",
             "url": "solstice",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": []
+            "history": [
+                "December 10th, 2023: Potential risk for Kemonomimis as the government is planning on passing a law that would risk their lives."
+            ]
         },
         {
             "name": "Sulópolis",
