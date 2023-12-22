@@ -188,10 +188,14 @@
             "url": "solstice",
             "danger": 1,
             "image": "/countries/solstice.webp",
-            "settlements": [],
+            "settlements": [
+                {
+                    "name": "Othoroot",
+                    "danger": 3
+                }
+            ],
             "history": [
-                "December 10th, 2023: Potential risk for Kemonomimis as the government is planning on passing a law that would risk their lives.",
-                "- Corruption within the government is rising."
+                "December 22nd 2023: Violent protests at Othoroot."
             ]
         },
         {

@@ -12,7 +12,7 @@ const HistoryModal = ({ isVisible, onClose, countries, dangerLevel, history }) =
             )
         })
     } else {
-        historyList = <li>Currently no diplomatic/medical issues in this country.</li>;
+        historyList = <li>Currently no diplomatic/medical issues in {countries}.</li>;
     }
 
     return (

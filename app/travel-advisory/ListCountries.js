@@ -51,7 +51,7 @@ export function Countries(){
         })
 
         return (
-            <div key="countries" id={'#' + country.url} className="bg-center bg-no-repeat bg-[image:var(--image-url)] bg-gray-500 bg-blend-multiply" style={{'--image-url': `url(${country.image})`}} >
+            <div key={country.name} id={country.url} className="bg-center bg-no-repeat bg-[image:var(--image-url)] bg-gray-500 bg-blend-multiply" style={{'--image-url': `url(${country.image})`}} >
                 <div className="sm:px-40 px-10 py-10 space-y-3">
                     <h1 className="font-medium md:text-5xl text-3xl">{country.name}</h1>
                     <h2 className="text-lg">{dangerLevel}</h2>
