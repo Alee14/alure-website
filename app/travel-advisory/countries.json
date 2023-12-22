@@ -186,18 +186,9 @@
         {
             "name": "The Solstice Federation",
             "url": "solstice",
-            "danger": 1,
+            "danger": 3,
             "image": "/countries/solstice.webp",
-            "settlements": [
-                {
-                    "name": "Firefly",
-                    "danger": 3
-                },
-                {
-                    "name": "Othoroot",
-                    "danger": 3
-                }
-            ],
+            "settlements": [],
             "history": [
                 "December 22nd 2023: Violent protests at Firefly caused by Othoroot."
             ]
