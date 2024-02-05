@@ -19,10 +19,12 @@
         {
             "name": "The Aura Regions",
             "url": "auraregions",
-            "danger": 0,
+            "danger": 1,
             "image": "/countries/auraregions.webp",
             "settlements": [],
-            "history": []
+            "history": [
+	        "February 5th, 2024: Lockdown happening in Baxford Central."
+	    ]
         },
         {
             "name": "Birch Boat Town",
@@ -186,12 +188,10 @@
         {
             "name": "The Solstice Federation",
             "url": "solstice",
-            "danger": 3,
+            "danger": 1,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": [
-                "January 2nd, 2023: Civil war within Solstice, caused by the Othoroot government."
-            ]
+            "history": ["Ongoing conflicts within the government."]
         },
         {
             "name": "Sulópolis",
