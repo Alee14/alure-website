@@ -188,10 +188,10 @@
         {
             "name": "The Solstice Federation",
             "url": "solstice",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": ["Ongoing conflicts within the government."]
+            "history": []
         },
         {
             "name": "Sulópolis",
