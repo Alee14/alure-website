@@ -19,12 +19,10 @@
         {
             "name": "The Aura Regions",
             "url": "auraregions",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/auraregions.webp",
             "settlements": [],
-            "history": [
-	        "February 5th, 2024: Lockdown happening in Baxford Central."
-	    ]
+            "history": []
         },
         {
             "name": "Birch Boat Town",
@@ -173,17 +171,15 @@
         {
             "name": "The Republic of Québec",
             "url": "republic-of-quebec",
-            "danger": 1,
+            "danger": 0,
             "image": "/countries/quebec.webp",
             "settlements": [
                 {
                     "name": "Forêt Québec",
-                    "danger": 3
+                    "danger": 2
                 }
             ],
-            "history": [
-                "Oui-Oui Industries did a hostile takeover of Forêt Québec."
-            ]
+            "history": []
         },
         {
             "name": "The Solstice Federation",
