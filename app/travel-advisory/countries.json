@@ -173,12 +173,7 @@
             "url": "republic-of-quebec",
             "danger": 0,
             "image": "/countries/quebec.webp",
-            "settlements": [
-                {
-                    "name": "Forêt Québec",
-                    "danger": 2
-                }
-            ],
+            "settlements": [],
             "history": []
         },
         {
