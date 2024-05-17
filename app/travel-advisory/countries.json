@@ -91,10 +91,12 @@
         {
             "name": "The Kemonomimi Republic",
             "url": "kemonomimi-republic",
-            "danger": 0,
+            "danger": 3,
             "image": "/countries/kemonomimi.webp",
             "settlements": [],
-            "history": []
+            "history": [
+	    	"Ongoing war with the People's Democratic Republic of Solstice."
+	    ]
         },
         {
             "name": "The Knowle Regions",
@@ -183,6 +185,7 @@
             "image": "/countries/solstice.webp",
             "settlements": [],
             "history": [
+		"May 17th, 2024: Ongoing war with KR.",
 	    	"May 2024: Major conflicts happening; Not limiting to: Civil war, Discrimination against the Kemonomimians"
 	    ]
         },
