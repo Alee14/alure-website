@@ -179,10 +179,12 @@
         {
             "name": "The Solstice Federation",
             "url": "solstice",
-            "danger": 0,
+            "danger": 3,
             "image": "/countries/solstice.webp",
             "settlements": [],
-            "history": []
+            "history": [
+	    	"May 2024: Major conflicts happening; Not limiting to: Civil war, Discrimination against the Kemonomimians"
+	    ]
         },
         {
             "name": "Sulópolis",
