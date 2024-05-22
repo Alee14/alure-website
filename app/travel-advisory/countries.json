@@ -91,12 +91,10 @@
         {
             "name": "The Kemonomimi Republic",
             "url": "kemonomimi-republic",
-            "danger": 3,
+            "danger": 0,
             "image": "/countries/kemonomimi.webp",
             "settlements": [],
-            "history": [
-	    	"Ongoing war with the People's Democratic Republic of Solstice."
-	    ]
+            "history": []
         },
         {
             "name": "The Knowle Regions",
