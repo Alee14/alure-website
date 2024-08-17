@@ -25,14 +25,6 @@
             "history": []
         },
         {
-            "name": "Birch Boat Town",
-            "url": "birchboattown",
-            "danger": 0,
-            "image": "/countries/birchboattown.webp",
-            "settlements": [],
-            "history": []
-        },
-        {
             "name": "Banatown",
             "url": "banatown",
             "danger": 0,
@@ -45,6 +37,14 @@
             "url": "countrywarp",
             "danger": 0,
             "image": "/countries/countrywarp.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
+            "name": "Cypress",
+            "url": "cypress",
+            "danger": 0,
+            "image": "/countries/cypress.webp",
             "settlements": [],
             "history": []
         },
