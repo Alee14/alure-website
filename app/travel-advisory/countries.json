@@ -2,6 +2,7 @@
     "countries": [
         {
             "name": "Anatoli",
+            "short": "ANT",
             "url": "anatoli",
             "danger": 0,
             "image": "/countries/anatoli.webp",
@@ -10,6 +11,7 @@
         },
         {
             "name": "Auckland",
+            "short": "AAB",
             "url": "auckland",
             "danger": 0,
             "image": "/countries/auckland.webp",
@@ -18,6 +20,7 @@
         },
         {
             "name": "The Aura Regions",
+            "short": "ARA",
             "url": "auraregions",
             "danger": 0,
             "image": "/countries/auraregions.webp",
@@ -26,6 +29,7 @@
         },
         {
             "name": "Banatown",
+            "short": "BAT",
             "url": "banatown",
             "danger": 0,
             "image": "/countries/banatown.webp",
@@ -34,6 +38,7 @@
         },
         {
             "name": "Country Warp",
+            "short": "COW",
             "url": "countrywarp",
             "danger": 0,
             "image": "/countries/countrywarp.webp",
@@ -42,6 +47,7 @@
         },
         {
             "name": "Cypress",
+            "short": "CYP",
             "url": "cypress",
             "danger": 0,
             "image": "/countries/cypress.webp",
@@ -50,6 +56,7 @@
         },
         {
             "name": "The Federation of Doodads and Gizmos",
+            "short": "FDG",
             "url": "doodadsandgizmos",
             "danger": 0,
             "image": "/countries/doodadsandgizmos.webp",
@@ -58,6 +65,7 @@
         },
         {
             "name": "Eagle City",
+            "short": "EGL",
             "url": "eaglecity",
             "danger": 0,
             "image": "/countries/eaglecity.webp",
@@ -66,6 +74,7 @@
         },
         {
             "name": "Fegal",
+            "short": "FGL",
             "url": "fegal",
             "danger": 0,
             "image": "/countries/fegal.webp",
@@ -74,6 +83,7 @@
         },
         {
             "name": "Halcandra",
+            "short": "HAL",
             "url": "halcandra",
             "danger": 0,
             "image": "/countries/halcandra.webp",
@@ -82,6 +92,7 @@
         },
         {
             "name": "Inkytown",
+            "short": "INK",
             "url": "inkytown",
             "danger": 0,
             "image": "/countries/inkytown.webp",
@@ -90,6 +101,7 @@
         },
         {
             "name": "The Kemonomimi Republic",
+            "short": "KRP",
             "url": "kemonomimi-republic",
             "danger": 0,
             "image": "/countries/kemonomimi.webp",
@@ -98,6 +110,7 @@
         },
         {
             "name": "The Knowle Regions",
+            "short": "KWL",
             "url": "knowle-regions",
             "danger": 0,
             "image": "/countries/knowleregions.webp",
@@ -105,15 +118,8 @@
             "history": []
         },
         {
-            "name": "Lion Land",
-            "url": "lionland",
-            "danger": 0,
-            "image": "/countries/lionland.webp",
-            "settlements": [],
-            "history": []
-        },
-        {
             "name": "landrepeatland",
+            "short": "LRL",
             "url": "landrepeatland",
             "danger": 0,
             "image": "/countries/landrepeatland.webp",
@@ -121,7 +127,17 @@
             "history": []
         },
         {
+            "name": "Lion Land",
+            "short": "LLI",
+            "url": "lionland",
+            "danger": 0,
+            "image": "/countries/lionland.webp",
+            "settlements": [],
+            "history": []
+        },
+        {
             "name": "Mart's Extraordinarily Sublime State",
+            "short": "MES",
             "url": "mess",
             "danger": 0,
             "image": "/countries/mess.webp",
@@ -130,6 +146,7 @@
         },
         {
             "name": "Mojave",
+            "short": "MOJ",
             "url": "mojave",
             "danger": 0,
             "image": "/countries/mojave.webp",
@@ -138,6 +155,7 @@
         },
         {
             "name": "The Open Republic",
+            "short": "ORP",
             "url": "open-republic",
             "danger": 0,
             "image": "/countries/openrepublic.webp",
@@ -146,6 +164,7 @@
         },
         {
             "name": "Ownage",
+            "short": "OWN",
             "url": "ownage",
             "danger": 0,
             "image": "/countries/ownage.webp",
@@ -154,6 +173,7 @@
         },
         {
             "name": "PLC",
+            "short": "PLC",
             "url": "plc",
             "danger": 0,
             "image": "/countries/plc.webp",
@@ -162,6 +182,7 @@
         },
         {
             "name": "Plutonia Imperium",
+            "short": "PLI",
             "url": "plutonia-imperium",
             "danger": 0,
             "image": "/countries/plutoniaimperium.webp",
@@ -170,6 +191,7 @@
         },
         {
             "name": "The Republic of Québec",
+            "short": "ROQ",
             "url": "republic-of-quebec",
             "danger": 0,
             "image": "/countries/quebec.webp",
@@ -178,14 +200,25 @@
         },
         {
             "name": "Solstan Federation",
+            "short": "SFR",
             "url": "solstice",
             "danger": 0,
             "image": "/countries/solstice.webp",
-            "settlements": [],
-            "history": []
+            "settlements": [
+	        {
+		    "name": "Firefly",
+		    "danger": 2   
+		}
+	    
+	    
+	    ],
+            "history": [
+	    "Nov 17, 2024: Violent protest at the capital of the Solstan Federation"
+	    ]
         },
         {
             "name": "Sulópolis",
+            "short": "SLP",
             "url": "sulopolis",
             "danger": 0,
             "image": "/countries/sulopolis.webp",
@@ -194,6 +227,7 @@
         },
         {
             "name": "Summasol",
+            "short": "SMS",
             "url": "summasol",
             "danger": 0,
             "image": "/countries/summasol.webp",
@@ -202,6 +236,7 @@
         },
         {
             "name": "TAY",
+            "short": "TAY",
             "url": "tay",
             "danger": 0,
             "image": "/countries/tay.webp",
@@ -210,6 +245,7 @@
         },
         {
             "name": "Union of Soviet Sovereign Republics",
+            "short": "SUN",
             "url": "ussr",
             "danger": 0,
             "image": "/countries/ussr.webp",
@@ -218,6 +254,7 @@
         },
         {
             "name": "Veronian Controlled Territories",
+            "short": "VCT",
             "url": "veronian-controlled-territories",
             "danger": 0,
             "image": "/countries/vct.webp",
@@ -226,6 +263,7 @@
         },
         {
             "name": "Vyxalla",
+            "short": "VYX",
             "url": "vyxalla",
             "danger": 0,
             "image": "/countries/vyxalla.webp",
@@ -234,6 +272,7 @@
         },
         {
             "name": "The Republic of Whale City",
+            "short": "WCI",
             "url": "whale-city",
             "danger": 0,
             "image": "/countries/whalecity.webp",
@@ -242,6 +281,7 @@
         },
         {
             "name": "The Republic of Yavno",
+            "short": "YNO",
             "url": "yavno",
             "danger": 0,
             "image": "/countries/yavno.webp",
