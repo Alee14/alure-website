@@ -29,6 +29,7 @@ const Navbar = () => {
                           ['Updates', '/updates'],
                           ['Services', '/services'],
                           ['Travel Advisory', '/travel-advisory'],
+                          ['Visas', '/visas'],
                           ['Immigration', '/immigration'],
                       ].map(([title, url]) => (
                           <li key="links">

@@ -1,0 +1,347 @@
+{
+  "countries": [
+    {
+      "name": "Anatoli",
+      "short": "ANT",
+      "url": "anatoli",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/anatoli.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Auckland",
+      "short": "AAB",
+      "url": "auckland",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/auckland.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Aura Regions",
+      "short": "ARA",
+      "url": "auraregions",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/auraregions.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Banatown",
+      "short": "BAT",
+      "url": "banatown",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/banatown.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Country Warp",
+      "short": "COW",
+      "url": "countrywarp",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/countrywarp.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Cypress",
+      "short": "CYP",
+      "url": "cypress",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/cypress.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Federation of Doodads and Gizmos",
+      "short": "FDG",
+      "url": "doodadsandgizmos",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/doodadsandgizmos.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Eagle City",
+      "short": "EGL",
+      "url": "eaglecity",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/eaglecity.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Fegal",
+      "short": "FGL",
+      "url": "fegal",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/fegal.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Halcandra",
+      "short": "HAL",
+      "url": "halcandra",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/halcandra.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Inkytown",
+      "short": "INK",
+      "url": "inkytown",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/inkytown.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Kemonomimi Republic",
+      "short": "KRP",
+      "url": "kemonomimi-republic",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/kemonomimi.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Knowle Regions",
+      "short": "KWL",
+      "url": "knowle-regions",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/knowleregions.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "landrepeatland",
+      "short": "LRL",
+      "url": "landrepeatland",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/landrepeatland.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Lion Land",
+      "short": "LLI",
+      "url": "lionland",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/lionland.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Mart's Extraordinarily Sublime State",
+      "short": "MES",
+      "url": "mess",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/mess.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Mojave",
+      "short": "MOJ",
+      "url": "mojave",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/mojave.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Open Republic",
+      "short": "ORP",
+      "url": "open-republic",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/openrepublic.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Ownage",
+      "short": "OWN",
+      "url": "ownage",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/ownage.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "PLC",
+      "short": "PLC",
+      "url": "plc",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/plc.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Plutonia Imperium",
+      "short": "PLI",
+      "url": "plutonia-imperium",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/plutoniaimperium.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Republic of Québec",
+      "short": "ROQ",
+      "url": "republic-of-quebec",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/quebec.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Solstan Federation",
+      "short": "SFR",
+      "url": "solstice",
+      "visa": true,
+      "visaInfo": [
+        "January 10th 2025: Solstice citizens will be required to have a visa to enter the Alure Regions. In addition, they will need a second form of ID and all ePassport+ gates will be disabled for Solstice citizens."
+      ],
+      "image": "/countries/solstice.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Sulópolis",
+      "short": "SLP",
+      "url": "sulopolis",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/sulopolis.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Summasol",
+      "short": "SMS",
+      "url": "summasol",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/summasol.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "TAY",
+      "short": "TAY",
+      "url": "tay",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/tay.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Union of Soviet Sovereign Republics",
+      "short": "SUN",
+      "url": "ussr",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/ussr.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Veronian Controlled Territories",
+      "short": "VCT",
+      "url": "veronian-controlled-territories",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/vct.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Vyxalla",
+      "short": "VYX",
+      "url": "vyxalla",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/vyxalla.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Republic of Whale City",
+      "short": "WCI",
+      "url": "whale-city",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/whalecity.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Republic of Yavno",
+      "short": "YNO",
+      "url": "yavno",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/yavno.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    }
+  ]
+}
