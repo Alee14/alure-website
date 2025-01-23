@@ -45,6 +45,17 @@
       "history": []
     },
     {
+      "name": "The Republic of Bohemia",
+      "short": "BHM",
+      "url": "bohemia",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/bohemia.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
       "name": "Country Warp",
       "short": "COW",
       "url": "countrywarp",
@@ -251,6 +262,17 @@
         "Jan 10th 2025: Solstan citizens will require to have a visa to enter the Alure Regions. In addition, they will need a second form of ID. All ePassport+ gates will be disabled for Solstan citizens."
       ],
       "image": "/countries/solstice.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Republic of Sorena",
+      "short": "SRN",
+      "url": "republic-of-sorena",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/sorena.webp",
       "danger": 0,
       "settlements": [],
       "history": []
