@@ -56,17 +56,6 @@
       "history": []
     },
     {
-      "name": "Country Warp",
-      "short": "COW",
-      "url": "countrywarp",
-      "visa": true,
-      "visaInfo": [],
-      "image": "/countries/countrywarp.webp",
-      "danger": 0,
-      "settlements": [],
-      "history": []
-    },
-    {
       "name": "Cypress",
       "short": "CYP",
       "url": "cypress",
@@ -339,6 +328,17 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/vyxalla.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "The Federal Republic of Warp",
+      "short": "COW",
+      "url": "warp",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/warp.webp",
       "danger": 0,
       "settlements": [],
       "history": []
