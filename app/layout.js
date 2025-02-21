@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={exo.className}>
       <div className="sm:px-10 px-5 py-0.5 font-medium space-x-3 text-right">
-          <a href="https://aircs.racing" className="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">aircs.racing ↗</a>
+          <a href="https://bnbmc.net" className="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">bnbmc.net ↗</a>
           <a href="https://alee14.me" className="transition duration-150 ease-out hover:ease-in md:hover:text-green-500">alee14.me ↗</a>
       </div>
       <PSA/>
