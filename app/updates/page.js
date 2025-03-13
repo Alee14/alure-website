@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 export const metadata = {
     title: 'Updates',
-    description: 'Follow the latest updates from the Government of Alure Regions',
+    description: 'Follow the latest updates from the Government of the Alure Regions',
 }
 
 export default function Updates() {

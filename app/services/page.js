@@ -2,7 +2,7 @@ import Header from "../components/Header";
 
 export const metadata = {
     title: 'Services',
-    description: 'Local services that we have here in Alure Regions',
+    description: 'Local services that we have here in the Alure Regions',
 }
 
 export default function Services() {

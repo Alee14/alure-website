@@ -3,8 +3,8 @@ import PostPreview from "./updates/PostPreview";
 import Link from "next/link";
 
 export const metadata = {
-    title: 'Home - Government of Alure Regions',
-    description: 'The official website of the Government of Alure Regions',
+    title: 'Home - Government of the Alure Regions',
+    description: 'The official website of the Government of the Alure Regions',
 }
 export default function Home() {
     const postMetadata = getPostMetadata();
@@ -58,8 +58,8 @@ export default function Home() {
                 </li>
             </ul>
         <div className="sm:px-40 px-10 py-3 space-y-3 bg-zinc-800">
-            <h1 className="text-2xl font-medium" id="about">About Alure Regions</h1>
-            <p>Alure Regions was founded in July 2023 with the goal of achieving greater autonomy in our regions.</p>
+            <h1 className="text-2xl font-medium" id="about">About The Alure Regions</h1>
+            <p>The Alure Regions was founded in July 2023 with the goal of achieving greater autonomy in our regions.</p>
             <p>Originally known as Alee Isle Regions, we later became Southeastern Islands before branching out on our own.</p>
             <p>We are committed to continuous improvement and growth as small regions.</p>
             <h1 className="text-2xl font-medium">Latest Updates</h1>

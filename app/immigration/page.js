@@ -2,7 +2,7 @@ import Header from "@/app/components/Header";
 
 export const metadata = {
     title: 'Immigration',
-    description: 'Planning on immigrating to the Alure Regions? Follow the instructions in this page to get started.',
+    description: 'Planning on immigrating to the the Alure Regions? Follow the instructions in this page to get started.',
 }
 
 export default function Immigration() {
@@ -11,7 +11,7 @@ export default function Immigration() {
             <Header title={metadata.title} description={metadata.description}/>
             <div className="sm:px-40 px-10 py-3 space-y-3 bg-zinc-800">
                 <h1 className="text-2xl font-medium">Getting Started on Immigration</h1>
-                <p>Thinking about making Alure Regions your new home? We are here to guide you through the immigration
+                <p>Thinking about making the Alure Regions your new home? We are here to guide you through the immigration
                     process.</p>
                 <p>To get started, simply fill in the form below.</p>
                 <button

@@ -7,10 +7,10 @@ const exo = Exo({ subsets: ['latin'] })
 
 export const metadata = {
   title: {
-      template: '%s - Government of Alure Regions',
-      default: 'Government of Alure Regions'
+      template: '%s - Government of the Alure Regions',
+      default: 'Government of the Alure Regions'
   },
-  description: 'The official website of the Government of Alure Regions',
+  description: 'The official website of the Government of the Alure Regions',
 }
 
 export default function RootLayout({ children }) {
