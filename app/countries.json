@@ -67,15 +67,17 @@
       "history": []
     },
     {
-      "name": "The Federation of Doodads and Gizmos",
+      "name": "The Republic of Gizmo City",
       "short": "FDG",
-      "url": "doodadsandgizmos",
+      "url": "gizmocity",
       "visa": true,
       "visaInfo": [],
       "image": "/countries/doodadsandgizmos.webp",
-      "danger": 0,
+      "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "March 2025: Gizmo City announced that they will nuke Sorena. Their citizens responded with a revolution."
+      ]
     },
     {
       "name": "Eagle City",
@@ -262,7 +264,9 @@
       "image": "/countries/sorena.webp",
       "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "March 2025: Internal turnoil in Sorena."
+      ]
     },
     {
       "name": "Sulópolis",
@@ -309,12 +313,34 @@
       "history": []
     },
     {
+      "name": "Kingdom of Union Jacks",
+      "short": "KUJ",
+      "url": "union-jacks",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/union-jacks.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
       "name": "Veronian Controlled Territories",
       "short": "VCT",
       "url": "veronian-controlled-territories",
       "visa": true,
       "visaInfo": [],
       "image": "/countries/vct.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
+      "name": "Vosazen",
+      "short": "VZN",
+      "url": "vosazen",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/vosazen.webp",
       "danger": 0,
       "settlements": [],
       "history": []
