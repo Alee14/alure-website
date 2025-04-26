@@ -1,5 +1,5 @@
 "use client"
-import countriesData from '@/app/countries.json' assert { type: 'json' };
+import countriesData from '@/app/countries.json' with { type: 'json' };
 import HistoryModal from "@/app/travel-advisory/HistoryModal";
 import { useState } from "react";
 

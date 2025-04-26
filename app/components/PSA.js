@@ -1,4 +1,4 @@
-import psaMessage from './psa.json' assert { type: 'json' };
+import psaMessage from './psa.json' with { type: 'json' };
 import Link from "next/link";
 
 const PSA = () => {

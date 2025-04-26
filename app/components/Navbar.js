@@ -27,12 +27,12 @@ const Navbar = () => {
                       {[
                           ['Home', '/'],
                           ['Updates', '/updates'],
-                          // ['Services', '/services'],
+                          ['Enterprises', '/enterprises'],
                           ['Travel Advisory', '/travel-advisory'],
                           ['Visas', '/visas'],
                           ['Immigration', '/immigration'],
                       ].map(([title, url]) => (
-                          <li key="links">
+                          <li key={title}>
                               <Link href={url} className="transition duration-150 ease-out hover:ease-in block py-2 pl-3 pr-4 rounded md:border-0 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent" onClick={() => setNavbar(!navbar)}>
                                   {title}
                               </Link>

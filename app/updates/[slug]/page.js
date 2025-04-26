@@ -11,8 +11,8 @@ const getPostContent = (slug) => {
     return matter(content);
 }
 
-export function generateMetadata(props) {
-    const slug = props.params.slug;
+export async function generateMetadata(props) {
+    const slug = (await props.params).slug;
     const post = getPostContent(slug);
 
     return {
@@ -28,8 +28,8 @@ export const generateStaticParams = async () => {
     }))
 }
 
-export default function PostPage(props) {
-    const slug = props.params.slug;
+export default async function PostPage(props) {
+    const slug = (await props.params).slug;
     const post = getPostContent(slug);
     return (
         <main>

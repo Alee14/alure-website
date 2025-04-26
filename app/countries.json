@@ -45,6 +45,19 @@
       "history": []
     },
     {
+      "name": "Basuran Federal Union",
+      "short": "BFU",
+      "url": "basuran",
+      "visa": true,
+      "visaInfo": [],
+      "image": "/countries/basuran.webp",
+      "danger": 3,
+      "settlements": [],
+      "history": [
+        "April 2025: Internal civil war between states."
+      ]
+    },
+    {
       "name": "The Republic of Bohemia",
       "short": "BHM",
       "url": "bohemia",
@@ -73,11 +86,9 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/doodadsandgizmos.webp",
-      "danger": 3,
+      "danger": 0,
       "settlements": [],
-      "history": [
-        "March 2025: Gizmo City announced that they will nuke Sorena. Their citizens responded with a revolution."
-      ]
+      "history": []
     },
     {
       "name": "Eagle City",
@@ -262,11 +273,9 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/sorena.webp",
-      "danger": 3,
+      "danger": 0,
       "settlements": [],
-      "history": [
-        "March 2025: Internal turnoil in Sorena."
-      ]
+      "history": []
     },
     {
       "name": "Sulópolis",
