@@ -262,9 +262,11 @@
       "visa": false,
       "visaInfo": [],
       "image": "/countries/solstice.webp",
-      "danger": 0,
+      "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "July 2025: Civil war between the federal government and province of Othoroot"
+      ]
     },
     {
       "name": "The Republic of Sorena",
