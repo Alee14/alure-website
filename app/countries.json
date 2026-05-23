@@ -251,9 +251,13 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/quebec.webp",
-      "danger": 0,
+      "danger": 1,
       "settlements": [],
-      "history": []
+      "history": [
+        "May 2025: Prion disease outbreak in Fôret Québec.",
+        "ROQ citizens must go through the manual passport section when entering the Alure Regions.",
+        "People who travelled from ROQ in the last 7 days must declare themselves."
+      ]
     },
     {
       "name": "Solstan Federation",
