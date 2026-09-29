@@ -201,6 +201,17 @@
       "history": []
     },
     {
+      "name": "Northern National Mining Corporation",
+      "short": "NNMC",
+      "url": "nnmc",
+      "visa": false,
+      "visaInfo": [],
+      "image": "/countries/todo.webp",
+      "danger": 0,
+      "settlements": [],
+      "history": []
+    },
+    {
       "name": "The Open Republic",
       "short": "ORP",
       "url": "open-republic",
@@ -251,12 +262,10 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/quebec.webp",
-      "danger": 1,
+      "danger": 2,
       "settlements": [],
       "history": [
-        "May 2025: Prion disease outbreak in Fôret Québec.",
-        "ROQ citizens must go through the manual passport section when entering the Alure Regions.",
-        "People who travelled from ROQ in the last 7 days must declare themselves."
+        "ROQ is currently under occupation of the Bohemia Government. Unexpected events may occur during this time."
       ]
     },
     {
