@@ -1,0 +1,83 @@
+---
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title = "Alure Regions", description = "The official website of the Government of the Alure Regions" } = Astro.props;
+
+import { Font, Image } from "astro:assets";
+---
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+
+		<!-- Default Metadata -->
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
+
+		<!-- Open Graph Metadata -->
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content="https://alee14.me/profile.png" />
+
+		<title>{title}</title>
+
+		<meta name="generator" content={Astro.generator} />
+	</head>
+	<body>
+        <div class="link">
+            <a href="https://bnbmc.net" class="transition duration-150 ease-out hover:ease-in md:hover:text-red-500">bnbmc.net ↗</a>
+        </div>
+	    <nav>
+			<Image src="/alure_flag.svg" alt="The Alure Regions Flag" width="80" height="80" />
+			<span class="nav-label">Government<br/>of the Alure Regions</span>
+		</nav>
+		<div class="bnbmc-warning">The Alure Regions is a fictional country made for the bits & Bytes Minecraft Server</div>
+		<slot/>
+	</body>
+</html>
+<style is:global>
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Exo", system-ui, sans-serif;
+}
+
+.bnbmc-warning {
+    padding: 15px;
+    background: lime;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    padding: 1em;
+    gap: 20px;
+}
+
+.nav-label {
+    font-weight: 500;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.link {
+    background: #000000;
+    padding-inline: 5px;
+    padding-block: 0.5px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.link-text {
+    color: white;
+    transition: 150ms ease-out;
+}
+</style>

@@ -1,17 +1,61 @@
 ---
-
+import Layout from '../layouts/Layout.astro'
 ---
+<Layout title="Alure Regions" description="The official website of the Government of the Alure Regions">
+    <div class="banner">
+        <div class="banner-text">
+            <h1>The Alure Regions</h1>
+            <p>The official website of the Government of the Alure Regions</p>
+        </div>
+    </div>
+    <div class="services">
+        <div class="services-panel">
+            <span class="services-text"><a href="#">Travel Advisory</a></span>
+        </div>
+        <div class="services-panel">
+            <span class="services-text"><a href="#">Visas</a></span>
+        </div>
+        <div class="services-panel">
+            <span class="services-text"><a href="#">Enterprises</a></span>
+        </div>
+        <div class="services-panel">
+            <span class="services-text"><a href="#">Immigration</a></span>
+        </div>
+    </div>
+    <div class="news">
+        <h1>News</h1>
+    </div>
+</Layout>
+<style>
+.banner {
+    background-image: url('/jumbotron.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Alure Regions</title>
-	</head>
-	<body>
-		<h1>Alure Regions</h1>
-	</body>
-</html>
+.services-panel {
+    background-color: mediumpurple;
+    padding: 2em;
+}
+
+.services-text {
+    font-size: 1.5em;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+</style>
