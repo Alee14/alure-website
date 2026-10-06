@@ -110,9 +110,12 @@
       "visa": false,
       "visaInfo": [],
       "image": "/countries/fegal.webp",
-      "danger": 0,
+      "danger": 1,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic and The Republic of Bohemia.",
+        "Refrain staying near the border of The Republic of Bohemia."
+      ]
     },
     {
       "name": "Halcandra",
@@ -156,9 +159,12 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/knowleregions.webp",
-      "danger": 0,
+      "danger": 1,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic and The Republic of Bohemia.",
+        "Refrain staying near the border of The Republic of Bohemia."
+      ]
     },
     {
       "name": "landrepeatland",
@@ -280,9 +286,12 @@
       "visa": false,
       "visaInfo": [],
       "image": "/countries/solstice.webp",
-      "danger": 0,
+      "danger": 1,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic and The Republic of Bohemia.",
+        "Refrain staying near the border of The Republic of Bohemia."
+      ]
     },
     {
       "name": "The Republic of Sorena",
