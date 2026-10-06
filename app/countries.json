@@ -64,9 +64,11 @@
       "visa": true,
       "visaInfo": [],
       "image": "/countries/bohemia.webp",
-      "danger": 0,
+      "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic."
+      ]
     },
     {
       "name": "Cypress",
@@ -141,9 +143,11 @@
       "visa": false,
       "visaInfo": [],
       "image": "/countries/kemonomimi.webp",
-      "danger": 0,
+      "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Republic of Bohemia."
+      ]
     },
     {
       "name": "The Knowle Regions",
@@ -265,6 +269,7 @@
       "danger": 2,
       "settlements": [],
       "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic.",
         "ROQ is currently under occupation of the Bohemia Government. Unexpected events may occur during this time."
       ]
     },
