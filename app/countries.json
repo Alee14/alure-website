@@ -421,9 +421,11 @@
       "visa": false,
       "visaInfo": [],
       "image": "/countries/yavno.webp",
-      "danger": 0,
+      "danger": 3,
       "settlements": [],
-      "history": []
+      "history": [
+        "October 2026: Ongoing war with The Republic of Bohemia."
+      ]
     }
   ]
 }
