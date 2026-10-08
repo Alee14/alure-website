@@ -30,8 +30,15 @@
       "visaInfo": [],
       "image": "/countries/auraregions.webp",
       "danger": 0,
-      "settlements": [],
-      "history": []
+      "settlements": [
+        {
+          "name": "Energy Cove",
+          "danger": 1
+        }
+      ],
+      "history": [
+        "October 2026: Ongoing war with The Kemonomimi Republic and The Republic of Bohemia."
+      ]
     },
     {
       "name": "Banatown",
